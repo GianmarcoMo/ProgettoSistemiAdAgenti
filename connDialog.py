@@ -14,7 +14,6 @@ SESSION_ID = 'me'
 def invioMessaggioAgente(inputUtente):
         text_to_be_analyzed = inputUtente
         
-        
         session_client = dialogflow.SessionsClient()
         session = session_client.session_path(DIALOGFLOW_PROJECT_ID, SESSION_ID)
         text_input = dialogflow.types.TextInput(text=text_to_be_analyzed, language_code=DIALOGFLOW_LANGUAGE_CODE)
