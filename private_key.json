@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "newagent-poqi",
+  "private_key_id": "42640552518c8deaec70e9381a429d2890520369",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCg2stoaVPFEz28\nT9wP1boI7PGw6xP5bcXIJxXgc/7HTrPBxQh+3/g8oSsu7QFLxNJLW+8mIX9/P0Oc\nJ2qdh1l9/nmuK8V2c04GUuwzWA0KdQU7LyQN8zicsJkNgAl7j9r0JBV8tU9jTp+k\nm+tP8w8dR/k2uwk9Ba0sCJYyJJ6Ms6dkpGrECx5SlWwRVqggtaFZavaA7N+ZcZXd\ncyRN0CZP9AiWQELReRCmc1bGbe8k2o9rH/HnwVhbwxh0qZlbb+yvm6k87uKbXHge\n58AYQovnH9M7aaf/dvTCkX/RIA5OH9BYdX9nDqq3AOQkNKlLR4KlKa0DlxKcCBs4\ng8TZnlxFAgMBAAECggEAH6RCgIi9k4YQLheogo3ooUJY3dQ0UuvCzPdRUJyIuPSU\nnDCR1gFhP631hG7XQywVsQDF56KNxb5wYoqHaLL8CfKRxY7zMjSG2+wabhQrRowT\n6htBFKRsVbhQdy0hUGbRK5bgii5RTkfkU/le3dSCe+BRV/CNZe1UrhWHVBhLfwI1\nFAWGb5fQqPvMVownzwgFTAVa3zCpy/BcwoDsfaStpbXyyqjykMFypECwiNKeNnGY\n6bXp4T6KHP6Ju90oHnFLJvmiBns1ju+jLXEL8FdyYhwUu5Y5peUCxZeJVJ3pMrTW\ngMb0lhHfpGbojtgHw9DCQYBslalHVRkuQUGNTJEx4QKBgQDYIpmQ0SC0m/6UIbwY\nSb2qI1MNjl769xHCGC/oncUKSUnhRdxh6CLd4qRpWxBrf2paOYpeJxn2hjlfOG4/\nTO9mnMg8aas3uOyJ9lQOqqiO5S6lJljy1viePUUv1c7KfpyM2feug6xDSCrzAkz9\n2LuGbTYoFlYymxB2kLOKTqxspQKBgQC+hfp1r2oczvrwiGD4+O7+UIag41o/oUYm\n/Jt0tSX+9ip/oPpLvdzxyqXNLN7FoxGwK8jJzAisMgguvCl68F/vd7tc0VVerYhU\nAcK7uLmuf8uzqVQPZ2ZAlft6eBaYGVzYR8J2LtHJUh7a5ti1s7gczMBFFnDgRjh/\nCplivLz/IQKBgBsKIRor/6J4zZ2spsKHHzJU3wQYJqvREyisK/o3GrqRtqt3OP4K\ns6n8u8LugJxiQWTuQ/BJhgcAfdb60VgcAOtee/KK6b+74+PSrGt1UEcoRvCkXoZq\n/ImXcrtsTUWqF13Lux/bG0cDlVP3mrg7UCKeMSNMwBXurl2W9s87znh9AoGAAXoQ\nYvElJWwFTfAAsG1djOMa6AxbGrspTAwROGpfDQbjdXHN/uBN4iHr/xcl8uo8rNzq\nBYZrWspYfeQ/fhB27ehDr4h/3OgDcoNA+yuHZO7gqVfaqvPmOwHunRhpNGyd559G\nxpu+TI0yaAf6Dg6CktaTdvWhklt4/KMcZUOJQ4ECgYBHl9WGAowfhVol6PFcgCNj\nYBRCNEN2JopZTbOYzVJ4lRbnZSTr9wkwRUzAzo0TrDTonSmFhLUkLhpX+CpSdD9c\ni4V2YWJ71yqInWDn2dLtQbhL5LVKzDyYvOdLjD1C9GplQ0mWOx0tE2XPObCMQLYn\nFdjiGZPRMkiCQxmDvORabQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "progettosys@newagent-poqi.iam.gserviceaccount.com",
+  "client_id": "104502176188944030374",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/progettosys%40newagent-poqi.iam.gserviceaccount.com"
+}
