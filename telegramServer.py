@@ -5,6 +5,8 @@ from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 import logging
 import connDialog as diagFlow
+import riconoscimentoSintomi
+import bayesianMethod as bm
 
 class Persona:
     def __init__(self):
@@ -13,7 +15,7 @@ class Persona:
         self.cognome = ''
         self.eta = 0
         self.sintomi = list()
-        
+        self.riconocimento = '0'
     def cambiaStatoSintomi(self):
         if(self.statoSintomi):
             # Si attiva l'acquisizione dei sintomi
@@ -36,6 +38,14 @@ class Persona:
 
     def getSintomi(self):
         return self.sintomi
+    
+    def getRiconoscimento(self):
+        return self.riconocimento
+    
+    def SetRiconoscimento(self,inpututente):
+        self.riconocimento = inpututente
+    
+    
 
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Ciao sono il bot Campa100anni!\nCome posso aiutarti?")
@@ -47,9 +57,16 @@ def echo(update, context):
         if(messaggioUtente.lower() == 'stop'):
             utente.cambiaStatoSintomi()
             context.bot.send_message(chat_id=update.effective_chat.id, text="Ora controllo cosa hai...")
-            # predizione
+            # predizione malattia
+            risultato = bm.prepredizioneMalattia(utente.getSintomi())
+            context.bot.send_message(chat_id=update.effective_chat.id, text="Secondo i dati che miei fornito potresti avere: " + risultato)
         else:
-            context.bot.send_message(chat_id=update.effective_chat.id, text="sintomi")  
+            utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context))
+            if (utente.getRiconoscimento() != '0'):
+                utente.getSintomi().append(utente.getRiconoscimento())
+                utente.SetRiconoscimento('0')
+            
+            
     else:
         messaggioBot = diagFlow.invioMessaggioAgente(update.message.text) 
         if(messaggioBot == 'Dimmi che sintomi hai'
