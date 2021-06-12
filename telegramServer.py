@@ -6,7 +6,6 @@ from telegram.ext import MessageHandler, Filters
 import logging
 import connDialog as diagFlow
 import riconoscimentoSintomi
-import bayesianMethod as bm
 
 class Persona:
     def __init__(self):
@@ -16,6 +15,7 @@ class Persona:
         self.eta = 0
         self.sintomi = list()
         self.riconocimento = '0'
+        
     def cambiaStatoSintomi(self):
         if(self.statoSintomi):
             # Si attiva l'acquisizione dei sintomi
@@ -58,14 +58,13 @@ def echo(update, context):
             utente.cambiaStatoSintomi()
             context.bot.send_message(chat_id=update.effective_chat.id, text="Ora controllo cosa hai...")
             # predizione malattia
-            risultato = bm.prepredizioneMalattia(utente.getSintomi())
+            risultato = riconoscimentoSintomi.predizioneMalattia(utente.getSintomi())
             context.bot.send_message(chat_id=update.effective_chat.id, text="Secondo i dati che miei fornito potresti avere: " + risultato)
         else:
             utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context))
             if (utente.getRiconoscimento() != '0'):
                 utente.getSintomi().append(utente.getRiconoscimento())
                 utente.SetRiconoscimento('0')
-            
             
     else:
         messaggioBot = diagFlow.invioMessaggioAgente(update.message.text) 

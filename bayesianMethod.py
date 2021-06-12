@@ -1,4 +1,3 @@
-
 import json
 
 def predizioneMalattia(listaSintomiUtente):
@@ -43,15 +42,7 @@ def predizioneMalattia(listaSintomiUtente):
             probabilita += sintomimatchati
             risultati[malattia["name"]] = probabilita/(denominatore + contatoresintomi)
             
-    
-    
-    return max(risultati, key=risultati.get)  # Just use 'min' instead of 'max' for minimum.
-    
-
-    
-    
-    
-    
-    #print(sorted(risultati.items(), key=lambda x: x[1]))
-
+    maxProbability = max(risultati, key=risultati.get) # Just use 'min' instead of 'max' for minimum.
+    print(maxProbability)
+    return maxProbability
 
