@@ -3,6 +3,8 @@
 from telegram.ext import Updater
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
+import telegram
+
 import logging
 import connDialog as diagFlow
 import riconoscimentoSintomi
@@ -44,7 +46,7 @@ class Persona:
     
     def SetRiconoscimento(self,inpututente):
         self.riconocimento = inpututente
-    
+   
     
 
 def start(update, context):
@@ -54,14 +56,17 @@ def echo(update, context):
     # Se l'utente è entrato nello stato per prendere i sintomi
     if(utente.getStato()):
         messaggioUtente = update.message.text
-        if(messaggioUtente.lower() == 'stop'):
+        
+        if(messaggioUtente.lower() == 'no'):
             utente.cambiaStatoSintomi()
             context.bot.send_message(chat_id=update.effective_chat.id, text="Ora controllo cosa hai...")
             # predizione malattia
             risultato = riconoscimentoSintomi.predizioneMalattia(utente.getSintomi())
-            context.bot.send_message(chat_id=update.effective_chat.id, text="Secondo i dati che miei fornito potresti avere: " + risultato)
+            context.bot.send_message(chat_id=update.effective_chat.id, text=f"Secondo i dati che miei fornito potresti avere: *{risultato.getNome()}*", parse_mode=telegram.ParseMode.MARKDOWN)
+            context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getLinkWiki())
+
         else:
-            utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context))
+            utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context, dispatcher, updater))
             if (utente.getRiconoscimento() != '0'):
                 utente.getSintomi().append(utente.getRiconoscimento())
                 utente.SetRiconoscimento('0')
@@ -71,7 +76,7 @@ def echo(update, context):
         if(messaggioBot == 'Dimmi che sintomi hai'
            or messaggioBot == 'Dimmi i tuoi dolori'):
             utente.cambiaStatoSintomi()
-        context.bot.send_message(chat_id=update.effective_chat.id, text=messaggioBot)  
+        context.bot.send_message(chat_id=update.effective_chat.id, text=messaggioBot)
         
 def gestoreMessaggi():     
     echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)

@@ -1,7 +1,7 @@
 [{
 		"url": "abnormal-involuntary-movements",
 		"senses": ["disordini del movimento", "movimento involontario", "disordine del movimento", "disturbi del movimento"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Disordini_del_movimento",
+		"link": "https://it.wikipedia.org/wiki/Disordini_del_movimento",
 		"synset_id": "bn:03880849n",
 		"name": "Disordini del movimento",
 		"descriptions": ["Per disordini del movimento si intendono, in campo medico, tutti quelle malfunzioni della muscolatura volontaria dell\u2019individuo."],
@@ -46,7 +46,7 @@
 	}, {
 		"url": "allergic-reaction",
 		"senses": ["allergia", "reazione allergica", "allergie", "reazioni allergiche", "allergiche"],
-		"wikipedia": "https://it.wikipedia.org/wiki/allergia",
+		"link": "https://it.wikipedia.org/wiki/allergia",
 		"synset_id": "bn:00002842n",
 		"name": "allergia",
 		"descriptions": ["Alterazione della risposta di un organismo a determinate sostanze", "L'allergia \u00e8 una malattia del sistema immunitario caratterizzata da reazioni eccessive portate da particolari anticorpi nei confronti di sostanze abitualmente innocue come ad esempio pollini.", "Malattia del sistema immunitario"],
@@ -91,7 +91,7 @@
 	}, {
 		"url": "back-pain",
 		"senses": ["dorsopatia", "mal di schiena", "back pain", "eseguire spasmo", "schiena", "spasmi alla schiena", "spasmo schiena"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Dorsopatia",
+		"link": "https://it.wikipedia.org/wiki/Dorsopatia",
 		"synset_id": "bn:00756144n",
 		"name": "mal di schiena",
 		"descriptions": ["L'affezione dolorosa nota come mal di schiena e pi\u00f9 scientificamente come dorsopatia \u00e8 quella sensazione di dolore sentita sul dorso che pu\u00f2 provenire dai muscoli, nervi, ossa, superfici articolari o da altre strutture nella colonna vertebrale."],
@@ -130,7 +130,7 @@
 	}, {
 		"url": "blood-in-urine",
 		"senses": ["ematuria", "macroematuria", "microematuria", "sangue nell'urina"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Ematuria",
+		"link": "https://it.wikipedia.org/wiki/Ematuria",
 		"synset_id": "bn:00042471n",
 		"name": "ematuria",
 		"descriptions": ["Presenza di sangue nell'urina", "L'ematuria \u00e8 la presenza di sangue nelle urine."],
@@ -175,7 +175,7 @@
 	}, {
 		"url": "chest-tightness",
 		"senses": ["dolore toracico", "dolore al torace", "dolore al petto"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Dolore_toracico",
+		"link": "https://it.wikipedia.org/wiki/Dolore_toracico",
 		"synset_id": "bn:00018210n",
 		"name": "Dolore toracico",
 		"descriptions": ["Il dolore toracico \u00e8 un sintomo a cui possono essere associate numerose anomalie e malattie, generalmente viene considerato un'emergenza per via dell\u2019angina instabile o dell'infarto miocardico acuto."],
@@ -220,7 +220,7 @@
 	}, {
 		"url": "diaper-rash",
 		"senses": ["eritema da pannolino", "dermatite da pannolino", "pannolino", "irritazione culo", "irritazione sedere", "eritema culo", "eritema sedere"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Eritema_da_pannolino",
+		"link": "https://it.wikipedia.org/wiki/Eritema_da_pannolino",
 		"synset_id": "bn:00026871n",
 		"name": "Eritema da pannolino",
 		"descriptions": ["Per eritema da pannolino in campo medico, si intende una forma di eritema tipica degli infanti quando essi vengono a contatto prolungato con un pannolino sporco, vi \u00e8 una correlazione con la Candida albicans, presente quasi sempre in tale forma di eritema."],
@@ -309,7 +309,7 @@
 	}, {
 		"url": "difficulty-in-swallowing",
 		"senses": ["disfagia"],
-		"wikipedia": "https://it.wikipedia.org/wiki/disfagia",
+		"link": "https://it.wikipedia.org/wiki/disfagia",
 		"synset_id": "bn:00029326n",
 		"name": "disfagia",
 		"descriptions": ["La disfagia \u00e8 una disfunzione dell'apparato digerente, consistente nella difficolt\u00e0 a deglutire, ed al corretto transito del bolo nelle vie digestive superiori; quasi sempre si manifesta come conseguenza di altri disturbi ostruttivi o motori, come presenza di neoplasie o acalasia."],
@@ -354,7 +354,7 @@
 	}, {
 		"url": "dry-lips",
 		"senses": ["cheilite", "labbra screpolate", "labbra secche", "labbra rotte"],
-		"wikipedia": "https://it.wikipedia.org/wiki/cheilite",
+		"link": "https://it.wikipedia.org/wiki/cheilite",
 		"synset_id": "bn:00018064n",
 		"name": "cheilite",
 		"descriptions": ["La cheilite \u00e8 un'infiammazione cutanea al labbro che si manifesta con taglietti, gonfiori e anche ulcerazioni che partono dagli angoli o dal bordo e si estendono sulle labbra."],
@@ -399,7 +399,7 @@
 	}, {
 		"url": "ear-pain",
 		"senses": ["otalgia", "otodinia", "dolore all'orecchio", "mal d'orecchi", "mal d'orecchio"],
-		"wikipedia": "https://it.wikipedia.org/wiki/otalgia",
+		"link": "https://it.wikipedia.org/wiki/otalgia",
 		"synset_id": "bn:00029380n",
 		"name": "otalgia",
 		"descriptions": ["L'otalgia \u00e8 un dolore dell'orecchio legato a patologie che colpiscono altri apparati: il dolore derivato da alterazioni auricolare \u00e8 invece detto \"otodinia\"."],
@@ -444,7 +444,7 @@
 	}, {
 		"url": "eye-redness",
 		"senses": ["occhi rossi", "effetto occhi rossi"],
-		"wikipedia": "https://it.wikipedia.org/wiki/occhi_rossi",
+		"link": "https://it.wikipedia.org/wiki/occhi_rossi",
 		"synset_id": "bn:00461726n",
 		"name": "occhi rossi",
 		"descriptions": ["L'arrossamento degli occhi \u00e8 generalmente indice di infiammazione oculare."],
@@ -489,7 +489,7 @@
 	}, {
 		"url": "fainting",
 		"senses": ["basimento", "deliquio", "sdilinquimento", "sturbo", "svenimento", "collasso", "defaillance", "incoscienza", "mancamento", "mancanza", "obnubilazione", "ottenebramento", "perdita dei sensi", "perdita di conoscenza", "perdita di coscienza", "sincope (medicina)", "sincope", "sincope da deglutizione", "debole", "deliquium", "svenimenti", "svenuta"],
-		"wikipedia": "https://it.wikipedia.org/wiki/sincope_(medicina)",
+		"link": "https://it.wikipedia.org/wiki/sincope_(medicina)",
 		"synset_id": "bn:00026056n",
 		"name": "sincope (medicina)",
 		"descriptions": ["Perdita di sensi, svenimento", "La sincope \u00e8 una perdita di coscienza transitoria, ad insorgenza rapida, da ipo-perfusione cerebrale globale, di breve durata e a risoluzione spontanea.", "Perdita di coscienza transitoria"],
@@ -622,7 +622,7 @@
 	}, {
 		"url": "hot-flashes",
 		"senses": ["caldana", "vampata di calore", "vampate", "vampate di calore", "vampata", "hot flash"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Vampata_di_calore",
+		"link": "https://it.wikipedia.org/wiki/Vampata_di_calore",
 		"synset_id": "bn:00035471n",
 		"name": "Vampata di calore",
 		"descriptions": ["Le vampate di calore sono la manifestazione pi\u00f9 tipica della menopausa dovuta a cambiamento dei livelli ormonali."],
@@ -667,7 +667,7 @@
 	}, {
 		"url": "increased-heart-rate",
 		"senses": ["palpitazione", "palpitazioni", "tachicardia", "tachiaritmia", "tachicardie", "tvns"],
-		"wikipedia": "https://it.wikipedia.org/wiki/tachicardia",
+		"link": "https://it.wikipedia.org/wiki/tachicardia",
 		"synset_id": "bn:00075851n",
 		"name": "tachicardia",
 		"descriptions": ["Aumento patologico della frequenza dei battiti del cuore", "La tachicardia \u00e8 una forma di accelerazione del battito cardiaco, con aumento della frequenza dei battiti cardiaci e pulsazioni sopra i 100 battiti al minuto a riposo o senza alcuna forma di stress."],
@@ -712,7 +712,7 @@
 	}, {
 		"url": "infertility",
 		"senses": ["infecondit\u00e0", "sterilit\u00e0", "infertilit\u00e0", "sterile", "impotentia generandi", "sterili", "subfertilit\u00e0"],
-		"wikipedia": "https://it.wikipedia.org/wiki/sterilit\u00e0",
+		"link": "https://it.wikipedia.org/wiki/sterilit\u00e0",
 		"synset_id": "bn:00046656n",
 		"name": "sterilit\u00e0",
 		"descriptions": ["L\u2019OMS definisce sterilit\u00e0 la situazione di una coppia in cui uno o entrambi i membri sono affetti da una condizione fisica permanente che non rende possibile il concepimento."],
@@ -783,7 +783,7 @@
 	}, {
 		"url": "irregular-heartbeat",
 		"senses": ["aritmia", "aritmie", "aritmia cardiaca", "aritmie cardiache", "alloritmia", "disritmie", "aritmico", "disturbi del ritmo cardiaco", "aritmia ventricolare", "battito cardiaco irregolare", "tachiaritmia"],
-		"wikipedia": "https://it.wikipedia.org/wiki/aritmia",
+		"link": "https://it.wikipedia.org/wiki/aritmia",
 		"synset_id": "bn:00005883n",
 		"name": "aritmia",
 		"descriptions": ["L'aritmia \u00e8 l'alterazione del ritmo cardiaco normale, che si riferisce al ritmo che origina dal nodo del seno, regolare per frequenza e conduzione elettrica del cuore."],
@@ -828,7 +828,7 @@
 	}, {
 		"url": "joint-pain",
 		"senses": ["artralgia", "artralgie", "dolori alle articolazioni", "dolore alle articolazioni", "dolori articolari"],
-		"wikipedia": "https://it.wikipedia.org/wiki/artralgia",
+		"link": "https://it.wikipedia.org/wiki/artralgia",
 		"synset_id": "bn:00006071n",
 		"name": "artralgia",
 		"descriptions": ["Lartralgia \u00e8 un termine a cui si riferisce qualunque dolore che colpisce un'articolazione e il tessuto ad essa circostante."],
@@ -908,7 +908,7 @@
 	}, {
 		"url": "low-back-pain",
 		"senses": ["lombaggine", "lombalgia", "lombalgie", "colpo della strega", "dolore lombare", "mal di schiena"],
-		"wikipedia": "https://it.wikipedia.org/wiki/lombalgia",
+		"link": "https://it.wikipedia.org/wiki/lombalgia",
 		"synset_id": "bn:00052286n",
 		"name": "lombaggine",
 		"descriptions": ["Dolore reumatico della regione lombare", "La lombalgia, pi\u00f9 comunemente detta mal di schiena, \u00e8 un disturbo comune che coinvolge i muscoli e le ossa della schiena."],
@@ -941,7 +941,7 @@
 	}, {
 		"url": "lower-abdominal-pain",
 		"senses": ["gastralgia", "mal di stomaco", "dolore addominale", "dolore di stomaco", "mal di pancia", "dolore epigastrico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/dolore_addominale",
+		"link": "https://it.wikipedia.org/wiki/dolore_addominale",
 		"synset_id": "bn:00009806n",
 		"name": "dolore addominale",
 		"descriptions": ["Il dolore addominale \u00e8 un sintomo avvertito nella regione delimitata superiormente dal torace, inferiormente dall'inguine."],
@@ -986,7 +986,7 @@
 	}, {
 		"url": "low-self-esteem",
 		"senses": ["autostima", "stima di s\u00e9", "amor proprio", "orgoglio di s\u00e9"],
-		"wikipedia": "https://it.wikipedia.org/wiki/autostima",
+		"link": "https://it.wikipedia.org/wiki/autostima",
 		"synset_id": "bn:00070351n",
 		"name": "autostima",
 		"descriptions": ["L'autostima \u00e8 il processo soggettivo e duraturo che porta il soggetto a valutare e apprezzare se stesso tramite l'autoapprovazione del proprio valore personale fondato su autopercezioni."],
@@ -1031,7 +1031,7 @@
 	}, {
 		"url": "lymphedema",
 		"senses": ["linfedema", "edema linfatico", "edema linfostatico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Linfedema",
+		"link": "https://it.wikipedia.org/wiki/Linfedema",
 		"synset_id": "bn:00052444n",
 		"name": "Linfedema",
 		"descriptions": ["Per linfedema in campo medico, si intende una condizione in cui avviene un accumulo anormale di linfa dovuto ad un'anomalia a livello del sistema linfatico."],
@@ -1076,7 +1076,7 @@
 	}, {
 		"url": "melena",
 		"senses": ["melena"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Melena",
+		"link": "https://it.wikipedia.org/wiki/Melena",
 		"synset_id": "bn:00054220n",
 		"name": "Melena",
 		"descriptions": ["Con il termine melena ci si riferisce alla emissione di sangue digerito attraverso l'ano con le feci."],
@@ -1118,7 +1118,7 @@
 	}, {
 		"url": "mouth-dryness",
 		"senses": ["xerostomia", "secchezza delle fauci", "secchezza della fauci"],
-		"wikipedia": "https://it.wikipedia.org/wiki/xerostomia",
+		"link": "https://it.wikipedia.org/wiki/xerostomia",
 		"synset_id": "bn:00028938n",
 		"name": "xerostomia",
 		"descriptions": ["Il termine xerostomia indica la sensazione soggettiva di bocca secca a causa della mancanza di saliva."],
@@ -1207,7 +1207,7 @@
 	}, {
 		"url": "muscle-pain",
 		"senses": ["mialgia", "dolore del muscolo", "dolore muscolare", "mialgie", "dolori muscolari", "myodynia"],
-		"wikipedia": "https://it.wikipedia.org/wiki/mialgia",
+		"link": "https://it.wikipedia.org/wiki/mialgia",
 		"synset_id": "bn:00056563n",
 		"name": "mialgia",
 		"descriptions": ["La mialg\u00eca \u00e8 un dolore localizzato in uno o in pi\u00f9 muscoli."],
@@ -1384,7 +1384,7 @@
 	}, {
 		"url": "nosebleed",
 		"senses": ["epistassi", "rinorragia", "sangue al naso", "emorragia nasale", "sanguinamento del naso", "sangue dal naso", "sanguinamento dal naso"],
-		"wikipedia": "https://it.wikipedia.org/wiki/epistassi",
+		"link": "https://it.wikipedia.org/wiki/epistassi",
 		"synset_id": "bn:00031233n",
 		"name": "epistassi",
 		"descriptions": ["Emorragia nasale", "L'epistassi o rinorragia \u00e8 un'emorragia originatasi all'interno delle fosse nasali.", "Emorragia che ha origine nelle fosse nasali"],
@@ -1426,7 +1426,7 @@
 	}, {
 		"url": "pain-during-intercourse",
 		"senses": ["dispareunia", "dispareunie"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Dispareunia",
+		"link": "https://it.wikipedia.org/wiki/Dispareunia",
 		"synset_id": "bn:02284499n",
 		"name": "Dispareunia",
 		"descriptions": ["La dispareunia \u00e8 un dolore che la donna avverte nell'area della vagina o della pelvi durante un rapporto sessuale."],
@@ -1471,7 +1471,7 @@
 	}, {
 		"url": "painful-urination",
 		"senses": ["disuria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Disuria",
+		"link": "https://it.wikipedia.org/wiki/Disuria",
 		"synset_id": "bn:00029338n",
 		"name": "Disuria",
 		"descriptions": ["La disuria consiste nell'emissione di urine con difficolt\u00e0, non necessariamente accompagnata da dolore; in questo caso sarebbe pi\u00f9 corretto parlare di stranguria.", "Sintomo"],
@@ -1516,7 +1516,7 @@
 	}, {
 		"url": "pallor",
 		"senses": ["lividezza", "pallore", "pallidezza", "livor mortis", "acromia", "lividness", "pallidness"],
-		"wikipedia": "https://it.wikipedia.org/wiki/pallore",
+		"link": "https://it.wikipedia.org/wiki/pallore",
 		"synset_id": "bn:00000892n",
 		"name": "pallore",
 		"descriptions": ["Il livor mortis \u00e8 la decolorazione del corpo dopo la morte a causa della stasi del sangue non pi\u00f9 pompato dal cuore, che per gravit\u00e0 filtra lentamente verso il basso attraverso i tessuti.", "Per pallore in campo medico si intende una diminuzione del normale colore della pelle dell\u2019individuo o anche l\u2019assenza di colore della cute.", "Il ristagno del sangue nelle parti declivi di un corpo privo di circolazione sanguigna."],
@@ -1561,7 +1561,7 @@
 	}, {
 		"url": "palpitations",
 		"senses": ["cardiopalma", "cardiopalmo", "palpitazione", "palpitazioni"],
-		"wikipedia": "https://it.wikipedia.org/wiki/cardiopalmo",
+		"link": "https://it.wikipedia.org/wiki/cardiopalmo",
 		"synset_id": "bn:00060324n",
 		"name": "cardiopalmo",
 		"descriptions": ["Anormale accelerazione dei battiti del cuore", "Il cardiopalmo \u00e8 la percezione accentuata del proprio battito cardiaco, percezione che normalmente non avviene."],
@@ -1606,7 +1606,7 @@
 	}, {
 		"url": "paresthesia",
 		"senses": ["parestesia", "parestesie", "intorpidimento e formicolio"],
-		"wikipedia": "https://it.wikipedia.org/wiki/parestesia",
+		"link": "https://it.wikipedia.org/wiki/parestesia",
 		"synset_id": "bn:00060549n",
 		"name": "parestesia",
 		"descriptions": ["La parestesia \u00e8 un'alterazione della sensibilit\u00e0 degli arti o di altre parti del corpo."],
@@ -1739,7 +1739,7 @@
 	}, {
 		"url": "polyuria",
 		"senses": ["poliuria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Poliuria",
+		"link": "https://it.wikipedia.org/wiki/Poliuria",
 		"synset_id": "bn:00063477n",
 		"name": "Poliuria",
 		"descriptions": ["La poliuria \u00e8 la formazione ed escrezione di un'eccessiva quantit\u00e0 di urine in assenza di un contemporaneo aumento dell'assunzione di liquidi."],
@@ -1828,7 +1828,7 @@
 	}, {
 		"url": "retention-of-urine",
 		"senses": ["ritenzione urinaria", "iscuria paradossa", "globo vescicale", "iscuria", "ritenzione vescicale", "ostruzione urinaria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Ritenzione_urinaria",
+		"link": "https://it.wikipedia.org/wiki/Ritenzione_urinaria",
 		"synset_id": "bn:00079341n",
 		"name": "Ritenzione urinaria",
 		"descriptions": ["Per ritenzione urinaria, o isc\u00f9ria, si intende la presenza di urina nella vescica, come conseguenza dell\u2019incapacit\u00e0 della stessa di svuotarsi."],
@@ -1911,7 +1911,7 @@
 	}, {
 		"url": "sleepiness",
 		"senses": ["addormentamento", "assopimento", "sonno", "sonnolenza", "sopore"],
-		"wikipedia": "https://it.wikipedia.org/wiki/sonnolenza",
+		"link": "https://it.wikipedia.org/wiki/sonnolenza",
 		"synset_id": "bn:00028869n",
 		"name": "sonnolenza",
 		"descriptions": ["La sonnolenza \u00e8 uno stato di torpore psicofisico caratterizzato dal bisogno e dal desiderio di dormire, con conseguente riduzione del livello di coscienza e difficolt\u00e0 a mantenere lo stato di veglia."],
@@ -1956,7 +1956,7 @@
 	}, {
 		"url": "sneezing",
 		"senses": ["starnuto", "starnuti", "starnutire", "sternutation"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Starnuto",
+		"link": "https://it.wikipedia.org/wiki/Starnuto",
 		"synset_id": "bn:00072417n",
 		"name": "starnuto",
 		"descriptions": ["Atto respiratorio riflesso violento e rumoroso, dovuto all'irritazione delle terminazioni nervose della mucosa nasale", "Lo starnuto \u00e8 una violenta emissione d'aria dai polmoni.", "Violenta emissione d'aria dai polmoni"],
@@ -2001,7 +2001,7 @@
 	}, {
 		"url": "swollen-lymph-nodes",
 		"senses": ["linfoadenopatia", "linfoadenomegalia", "adenopatia", "linfadenopatia", "linfatismo", "linfoadenopatie"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Linfoadenopatia",
+		"link": "https://it.wikipedia.org/wiki/Linfoadenopatia",
 		"synset_id": "bn:00052436n",
 		"name": "Linfoadenopatia",
 		"descriptions": ["La linfoadenopatia, in medicina, \u00e8 l\u2019ingrossamento dei linfonodi di qualsiasi natura."],
@@ -2046,7 +2046,7 @@
 	}, {
 		"url": "swollen-tongue",
 		"senses": ["macroglossia"],
-		"wikipedia": "https://it.wikipedia.org/wiki/macroglossia",
+		"link": "https://it.wikipedia.org/wiki/macroglossia",
 		"synset_id": "bn:00052614n",
 		"name": "macroglossia",
 		"descriptions": ["Per macroglossia in campo medico, si intende un'anomalia che comporta un'eccessiva crescita volumetrica della lingua."],
@@ -2258,7 +2258,7 @@
 	}, {
 		"url": "vomiting",
 		"senses": ["rigurgito", "vomito", "emesi", "conati di vomito", "vomito fecaloide", "conato", "conato di vomito", "sboccatura", "vomitare", "vomita"],
-		"wikipedia": "https://it.wikipedia.org/wiki/vomito",
+		"link": "https://it.wikipedia.org/wiki/vomito",
 		"synset_id": "bn:00027565n",
 		"name": "vomito",
 		"descriptions": ["Atto del vomitare", "Il vomito \u00e8 l'espulsione rapida attraverso la bocca di materiale gastrointestinale, provocata dalla rapida contrazione involontaria dei muscoli dell'addome, associata ad un'apertura del cardias in seguito ad un'onda antiperistaltica che parte dal digiuno."],
@@ -2297,7 +2297,7 @@
 	}, {
 		"url": "vomiting-blood",
 		"senses": ["ematemesi"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Ematemesi",
+		"link": "https://it.wikipedia.org/wiki/Ematemesi",
 		"synset_id": "bn:00042454n",
 		"name": "Ematemesi",
 		"descriptions": ["L'emat\u00e8mesi \u00e8 il termine che indica la perdita di sangue dallo stomaco, dall'esofago o dal duodeno attraverso l'emesi."],
@@ -2342,7 +2342,7 @@
 	}, {
 		"url": "warts",
 		"senses": ["porro", "verruca", "verruche"],
-		"wikipedia": "https://it.wikipedia.org/wiki/verruca",
+		"link": "https://it.wikipedia.org/wiki/verruca",
 		"synset_id": "bn:00079819n",
 		"name": "verruca",
 		"descriptions": ["Formazione cutanea dovuta per lo pi\u00f9 a virus", "La verruca \u00e8 una formazione cutanea indotta dal virus del papilloma umano della famiglia Papovaviridae."],
@@ -2475,7 +2475,7 @@
 	}, {
 		"url": "apnea",
 		"senses": ["apnea"],
-		"wikipedia": "https://it.wikipedia.org/wiki/apnea",
+		"link": "https://it.wikipedia.org/wiki/apnea",
 		"synset_id": "bn:00004925n",
 		"name": "apnea",
 		"descriptions": ["Mancanza di respiro", "L'apnea \u00e8 l'assenza di respirazione esterna o una pausa della respirazione superiore ai 15 secondi."],
@@ -2517,7 +2517,7 @@
 	}, {
 		"url": "blindness",
 		"senses": ["cecit\u00e0", "non vedente", "non vedenti", "amaurosi", "anopsia", "ablepsia", "disabili visivi", "legalmente cieco", "perdita della vista"],
-		"wikipedia": "https://it.wikipedia.org/wiki/cecit\u00e0",
+		"link": "https://it.wikipedia.org/wiki/cecit\u00e0",
 		"synset_id": "bn:00011271n",
 		"name": "cecit\u00e0",
 		"descriptions": ["Totale mancanza della vista", "La cecit\u00e0 consiste in una percezione ottico-visiva ridottissima o nulla.", "Percezione ottico-visiva ridottissima o nulla"],
@@ -2562,7 +2562,7 @@
 	}, {
 		"url": "chills",
 		"senses": ["brivido", "brividi", "rigidit\u00e0"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Brivido",
+		"link": "https://it.wikipedia.org/wiki/Brivido",
 		"synset_id": "bn:03328185n",
 		"name": "Brivido",
 		"descriptions": ["I brividi sono rapide contrazioni muscolari asincrone provocate da impulsi cerebrali involontari riflessi."],
@@ -2607,7 +2607,7 @@
 	}, {
 		"url": "constipation",
 		"senses": ["costipamento", "costipazione", "fecaloma", "stipsi", "stitichezza", "blocco intestinale", "stipsi cronica", "costipazione (medicina)", "stitico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/stitichezza",
+		"link": "https://it.wikipedia.org/wiki/stitichezza",
 		"synset_id": "bn:00022047n",
 		"name": "stitichezza",
 		"descriptions": ["Difficolt\u00e0 a defecare", "La stitichezza o stipsi \u00e8 una malattia o disturbo della defecazione consistente nella difficolt\u00e0 di svuotare in tutto o in parte l'intestino espellendone le feci.", "Citazioni sulla stitichezza o stipsi."],
@@ -2652,7 +2652,7 @@
 	}, {
 		"url": "coryza",
 		"senses": ["coriza", "corizza", "rinite", "coriza (medicina)", "riniti", "rinite allergica stagionale", "rinite vasomotoria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/rinite",
+		"link": "https://it.wikipedia.org/wiki/rinite",
 		"synset_id": "bn:00022955n",
 		"name": "rinite",
 		"descriptions": ["La rinite o coriza o congestione nasale \u00e8 un termine medico che descrive l'irritazione e l'infiammazione della mucosa nasale.", "Coriza \u00e8 una parola che descrive i sintomi del raffreddore comune o allergico.", "Sintomi del raffreddore comune o allergico"],
@@ -2697,7 +2697,7 @@
 	}, {
 		"url": "cough",
 		"senses": ["colpo di tosse", "tosse", "mucolitico", "mucolitici", "tosse cronica", "tosse secca", "avere la tosse", "tossire"],
-		"wikipedia": "https://it.wikipedia.org/wiki/tosse",
+		"link": "https://it.wikipedia.org/wiki/tosse",
 		"synset_id": "bn:00023108n",
 		"name": "tosse",
 		"descriptions": ["Espirazione forzata e sonora per espellere il contenuto delle vie respiratorie", "La tosse \u00e8 un'energica contrazione inspiratoria, cui segue una rapida espirazione, con chiusura della rima glottidea, seguita da una riapertura della stessa con genesi di una vibrazione sonora, a cui si accompagna un innalzamento del palato molle, occludente il nasofaringe.", "Energica contrazione inspiratoria, cui segue una rapida espirazione"],
@@ -2742,7 +2742,7 @@
 	}, {
 		"url": "cross-eyed",
 		"senses": ["esotropia", "cross-eye", "occhio attraversato", "strabismo convergente", "strabico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Esotropia",
+		"link": "https://it.wikipedia.org/wiki/Esotropia",
 		"synset_id": "bn:00022345n",
 		"name": "Esotropia",
 		"descriptions": ["L\u2019 esotropia \u00e8 una forma di strabismo concomitante e per la precisazione riguarda le forme convergenti degli assi visivi."],
@@ -2831,7 +2831,7 @@
 	}, {
 		"url": "diarrhea",
 		"senses": ["cacaiola", "cacarella", "cacherella", "diarrea", "sciolta", "squacquera", "diarree", "cagarella", "cagotto", "squaraus", "scioltezza delle viscere", "malattie diarroiche"],
-		"wikipedia": "https://it.wikipedia.org/wiki/diarrea",
+		"link": "https://it.wikipedia.org/wiki/diarrea",
 		"synset_id": "bn:00026886n",
 		"name": "diarrea",
 		"descriptions": ["La diarrea \u00e8 un disturbo della defecazione caratterizzato da un aumento dell'emissione di una quantit\u00e0 giornaliera di feci superiore ai 200 g con diminuzione della loro consistenza e da un aumento della frequenza di scarica dell'alvo intestinale."],
@@ -2876,7 +2876,7 @@
 	}, {
 		"url": "dizziness",
 		"senses": ["capogiro", "giracapo", "giramento", "giramento di testa", "vertigine", "vertigine (medicina)", "vertigini (medicina)", "vertigini", "sensazione di testa vuota"],
-		"wikipedia": "https://it.wikipedia.org/wiki/vertigine_(medicina)",
+		"link": "https://it.wikipedia.org/wiki/vertigine_(medicina)",
 		"synset_id": "bn:00027951n",
 		"name": "vertigine",
 		"descriptions": ["Improvvisa sensazione di perdita dell'equilibrio e di turbamento della vista", "La vertigine \u00e8 una distorsione della percezione sensoriale dell\u2019individuo.", "Sensazione sgradevole di rotazione. \u00c8 un sintomo."],
@@ -2921,7 +2921,7 @@
 	}, {
 		"url": "double-vision",
 		"senses": ["diplopia", "visione doppia"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Diplopia",
+		"link": "https://it.wikipedia.org/wiki/Diplopia",
 		"synset_id": "bn:00027291n",
 		"name": "Diplopia",
 		"descriptions": ["La diplop\u00eca \u00e8 la visione doppia, in senso orizzontale o verticale, di uno stesso oggetto, pu\u00f2 riguardare un solo occhio oppure entrambi e pu\u00f2 essere transitoria o permanente."],
@@ -3007,7 +3007,7 @@
 	}, {
 		"url": "fatigue",
 		"senses": ["affaticamento", "estenuazione", "fatica", "fiacca", "fiacchezza", "stanchezza", "stracca", "letargo", "sfinitezza", "letargico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/affaticamento",
+		"link": "https://it.wikipedia.org/wiki/affaticamento",
 		"synset_id": "bn:00033794n",
 		"name": "affaticamento",
 		"descriptions": ["Stato che deriva da uno sforzo fisico o intellettuale troppo intenso o prolungato", "Per affaticamento in campo medico, si intende un insieme di sintomi avvertiti dalla persona, essi possono variare dalla letargia ad una sensazione di bruciore e pu\u00f2 essere fisico o mentale.", "Sensazione di stanchezza"],
@@ -3052,7 +3052,7 @@
 	}, {
 		"url": "fever",
 		"senses": ["febbre", "febbrone", "iperpiressia", "ipertermia", "piressia", "febricity", "febrility", "febbrile"],
-		"wikipedia": "https://it.wikipedia.org/wiki/febbre",
+		"link": "https://it.wikipedia.org/wiki/febbre",
 		"synset_id": "bn:00033883n",
 		"name": "febbre",
 		"descriptions": ["Temperatura alta del corpo", "La febbre o piressia \u00e8 un segno clinico; si definisce come uno stato patologico temporaneo che comporta un'alterazione del sistema di termoregolazione ipotalamica e una conseguente elevazione della temperatura corporea al di sopra del valore considerato normale."],
@@ -3097,7 +3097,7 @@
 	}, {
 		"url": "flatulence",
 		"senses": ["flatulenza", "ventosit\u00e0", "peto", "flato", "scoreggia", "flatulenze", "scorreggia", "puzzetta", "scorengia", "troddio"],
-		"wikipedia": "https://it.wikipedia.org/wiki/flatulenza",
+		"link": "https://it.wikipedia.org/wiki/flatulenza",
 		"synset_id": "bn:00035120n",
 		"name": "flatulenza",
 		"descriptions": ["Produzione di gas nello stomaco e nell'intestino", "La flatulenza \u00e8 la produzione di una miscela di gas, aggiunta a delle particelle aerosolizzate di feci, che viene rilasciata sotto pressione attraverso l'ano."],
@@ -3142,7 +3142,7 @@
 	}, {
 		"url": "flushing",
 		"senses": ["infiammazione", "rossore", "flogosi", "malattia infiammatoria", "infiammazioni", "infiammazione acuta", "infiammatoria", "infiammazioni croniche", "infiammatorio", "processo flogistico", "affezioni flogistiche", "rubor", "infiammata", "infiammazione cronica", "malattie infiammatorie", "mediatori infiammatori", "risposta infiammatoria", "vampate di calore"],
-		"wikipedia": "https://it.wikipedia.org/wiki/infiammazione",
+		"link": "https://it.wikipedia.org/wiki/infiammazione",
 		"synset_id": "bn:00046672n",
 		"name": "infiammazione",
 		"descriptions": ["L'infiammazione, o flogosi, \u00e8 un meccanismo di difesa non specifico innato, che costituisce una risposta protettiva, seguente all'azione dannosa di agenti fisici, chimici e biologici, il cui obiettivo finale \u00e8 l'eliminazione della causa iniziale di danno cellulare o tissutale, nonch\u00e9 avviare il processo riparativo."],
@@ -3187,7 +3187,7 @@
 	}, {
 		"url": "headache",
 		"senses": ["cefalalgia", "cefalea", "cefalgia", "emicrania", "mal di testa", "dolore di testa", "cefalee", "cefalea primaria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/cefalea",
+		"link": "https://it.wikipedia.org/wiki/cefalea",
 		"synset_id": "bn:00017236n",
 		"name": "cefalea",
 		"descriptions": ["Per mal di testa o cefalea si intende il dolore provato in qualsiasi parte della zona della testa o del collo.", "Disturbo doloroso della testa"],
@@ -3232,7 +3232,7 @@
 	}, {
 		"url": "heartburn",
 		"senses": ["acidit\u00e0", "bruciore di stomaco", "pirosi", "acidit\u00e0 di stomaco", "bruciore retrosternale", "indigestione acida", "indigestione acido"],
-		"wikipedia": "https://it.wikipedia.org/wiki/pirosi",
+		"link": "https://it.wikipedia.org/wiki/pirosi",
 		"synset_id": "bn:00043403n",
 		"name": "pirosi",
 		"descriptions": ["La pirosi, definita anche bruciore retrosternale, \u00e8 un sintomo dolorifico urente localizzato posteriormente allo sterno, che pu\u00f2 indicare una disfunzione dell'apparato digerente, in particolare dello stomaco."],
@@ -3277,7 +3277,7 @@
 	}, {
 		"url": "hemoptysis",
 		"senses": ["emottisi", "emotisi"],
-		"wikipedia": "https://it.wikipedia.org/wiki/emottisi",
+		"link": "https://it.wikipedia.org/wiki/emottisi",
 		"synset_id": "bn:00042480n",
 		"name": "emottisi",
 		"descriptions": ["L'emott\u00ecsi \u00e8 l'emissione di sangue dalle vie respiratorie, solitamente attraverso un colpo di tosse."],
@@ -3366,7 +3366,7 @@
 	}, {
 		"url": "impotence",
 		"senses": ["disfunzione erettile", "impotenza sessuale", "impotenza", "impotentia coeundi", "ed", "erecticle disfunzione maschile", "impotente"],
-		"wikipedia": "https://it.wikipedia.org/wiki/disfunzione_erettile",
+		"link": "https://it.wikipedia.org/wiki/disfunzione_erettile",
 		"synset_id": "bn:00029719n",
 		"name": "disfunzione erettile",
 		"descriptions": ["La disfunzione erettile, chiamata in passato impotenza, viene definita \u201cl'incapacit\u00e0 del soggetto di sesso maschile a raggiungere e/o mantenere un'erezione sufficiente a condurre un rapporto soddisfacente\u201d."],
@@ -3411,7 +3411,7 @@
 	}, {
 		"url": "insomnia",
 		"senses": ["insonnia"],
-		"wikipedia": "https://it.wikipedia.org/wiki/insonnia",
+		"link": "https://it.wikipedia.org/wiki/insonnia",
 		"synset_id": "bn:00046918n",
 		"name": "insonnia",
 		"descriptions": ["Difficolt\u00e0 a prendere sonno", "L'insonnia \u00e8 un disturbo del sonno caratterizzato dall'incapacit\u00e0 di prendere sonno nonostante ce ne sia il reale bisogno fisiologico."],
@@ -3456,7 +3456,7 @@
 	}, {
 		"url": "jaundice",
 		"senses": ["itterizia", "ittero", "morbo regio"],
-		"wikipedia": "https://it.wikipedia.org/wiki/ittero",
+		"link": "https://it.wikipedia.org/wiki/ittero",
 		"synset_id": "bn:00045784n",
 		"name": "ittero",
 		"descriptions": ["Colorazione giallastra della cute e delle mucose per deposito abnorme di pigmenti biliari", "Si definisce ittero la colorazione giallastra della pelle, delle sclere e delle mucose causata dall'eccessivo innalzamento dei livelli di bilirubina nel sangue."],
@@ -3501,7 +3501,7 @@
 	}, {
 		"url": "lacrimation",
 		"senses": ["lacrimazione", "lagrimazione", "pianto", "lacrima", "lacrime", "film lacrimale", "liquido lacrimale"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Lacrima",
+		"link": "https://it.wikipedia.org/wiki/Lacrima",
 		"synset_id": "bn:00024162n",
 		"name": "pianto",
 		"descriptions": ["Il piangere", "La pellicola lacrimale \u00e8 una struttura liquida che ricopre la congiuntiva palpebrale bulbare e la cornea, prodotta dall'apparato lacrimale.", "Per pianto si intende comunemente l'atto di produrre e rilasciare lacrime in risposta ad un'emozione, sia essa negativa, che positiva.", "Atto di produrre e rilasciare lacrime in risposta ad un'emozione"],
@@ -3546,7 +3546,7 @@
 	}, {
 		"url": "nausea",
 		"senses": ["nausea", "voltastomaco"],
-		"wikipedia": "https://it.wikipedia.org/wiki/nausea",
+		"link": "https://it.wikipedia.org/wiki/nausea",
 		"synset_id": "bn:00057034n",
 		"name": "nausea",
 		"descriptions": ["La nausea, parola derivante dal latino n\u00e3usea mal di mare, derivante a sua volta dal greco, variante ionica di, derivante da nave, \u00e8 una sensazione di malessere e fastidio allo stomaco che pu\u00f2 precedere il vomito."],
@@ -3591,7 +3591,7 @@
 	}, {
 		"url": "nightmares",
 		"senses": ["incubo (sogno)", "incubo", "brutto sogno", "incubo notturno", "incubi"],
-		"wikipedia": "https://it.wikipedia.org/wiki/incubo_(sogno)",
+		"link": "https://it.wikipedia.org/wiki/incubo_(sogno)",
 		"synset_id": "bn:03227876n",
 		"name": "incubo (sogno)",
 		"descriptions": ["L'incubo \u00e8 un tipo di sogno che si presenta in modo angosciante e a volte \u00e8 accompagnato da una sensazione di oppressione al petto e/o da difficolt\u00e0 respiratorie."],
@@ -3636,7 +3636,7 @@
 	}, {
 		"url": "premature-ejaculation",
 		"senses": ["eiaculazione precoce", "l'eiaculazione precoce"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Eiaculazione_precoce",
+		"link": "https://it.wikipedia.org/wiki/Eiaculazione_precoce",
 		"synset_id": "bn:00064151n",
 		"name": "Eiaculazione precoce",
 		"descriptions": ["L'eiaculazione precoce pu\u00f2 essere definita come la difficolt\u00e0 o incapacit\u00e0 da parte dell'uomo nell'esercitare il controllo volontario sull'eiaculazione."],
@@ -3676,51 +3676,6 @@
 			}, {
 				"name": "elbow-cramps-or-spasms",
 				"probability": 3
-			}
-		]
-	}, {
-		"url": "regurgitation",
-		"senses": ["rigurgito", "vomito", "emesi", "conati di vomito", "vomito fecaloide", "conato", "conato di vomito", "sboccatura", "vomitare", "vomita"],
-		"wikipedia": "https://it.wikipedia.org/wiki/vomito",
-		"synset_id": "bn:00027565n",
-		"name": "vomito",
-		"descriptions": ["Atto del vomitare", "Il vomito \u00e8 l'espulsione rapida attraverso la bocca di materiale gastrointestinale, provocata dalla rapida contrazione involontaria dei muscoli dell'addome, associata ad un'apertura del cardias in seguito ad un'onda antiperistaltica che parte dal digiuno."],
-		"correlate_symptoms": [{
-				"name": "sharp-abdominal-pain",
-				"probability": 38
-			}, {
-				"name": "vomiting",
-				"probability": 29
-			}, {
-				"name": "nausea",
-				"probability": 29
-			}, {
-				"name": "diarrhea",
-				"probability": 24
-			}, {
-				"name": "heartburn",
-				"probability": 17
-			}, {
-				"name": "lower-abdominal-pain",
-				"probability": 16
-			}, {
-				"name": "problems-during-pregnancy",
-				"probability": 15
-			}, {
-				"name": "frequent-urination",
-				"probability": 13
-			}, {
-				"name": "upper-abdominal-pain",
-				"probability": 13
-			}, {
-				"name": "stomach-bloating",
-				"probability": 12
-			}, {
-				"name": "blood-in-stool",
-				"probability": 9
-			}, {
-				"name": "redness-in-ear",
-				"probability": 6
 			}
 		]
 	}, {
@@ -3770,7 +3725,7 @@
 	}, {
 		"url": "seizures",
 		"senses": ["attacco", "ictus", "raptus", "convulsioni", "raptus di follia", "arsi", "crisi epilettica", "crisi epilettiche", "epilettica", "sequestro"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Convulsione",
+		"link": "https://it.wikipedia.org/wiki/Convulsione",
 		"synset_id": "bn:00045792n",
 		"name": "Raptus",
 		"descriptions": ["Il raptus \u00e8 un impulso improvviso di forte intensit\u00e0 che porta un soggetto a episodi di parossismo, in genere violenti."],
@@ -3797,7 +3752,7 @@
 	}, {
 		"url": "shortness-of-breath",
 		"senses": ["dispnea", "dispnea da sforzo", "fame d'aria", "mancanza di respiro"],
-		"wikipedia": "https://it.wikipedia.org/wiki/dispnea",
+		"link": "https://it.wikipedia.org/wiki/dispnea",
 		"synset_id": "bn:00029332n",
 		"name": "dispnea",
 		"descriptions": ["La dispnea, o fame d'aria, \u00e8 il sintomo di una respirazione difficoltosa.", "Epressione con cui \u00e8 indicata la dispnea", "Malattia dell'apparato respiratorio"],
@@ -3842,7 +3797,7 @@
 	}, {
 		"url": "skin-irritation",
 		"senses": ["irritazione pelle", "irritazione", "irritante"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Irritazione",
+		"link": "https://it.wikipedia.org/wiki/Irritazione",
 		"synset_id": "bn:00047566n",
 		"name": "Irritazione della pelle",
 		"descriptions": ["Nel linguaggio comune con irritazione si fa riferimento in genere ad uno stato infiammatorio delle mucose o della pelle."],
@@ -3887,7 +3842,7 @@
 	}, {
 		"url": "skin-lesion",
 		"senses": ["abrasione", "escoriazione", "sbucciamento", "scorticatura", "spellamento", "spellatura", "graffio", "sberleffo", "scalfittura", "sfregio", "lesioni elementari della cute", "eruzione cutanea", "eruzioni cutanee", "lesioni cutanee elementari", "condizione cutanea", "condizione della pelle", "dermatosi", "escoriazioni", "indurimento", "lesione cutanea", "lesioni cutanee", "lichenificazione", "macule", "malattie della pelle", "pustole", "ulcere cutanee", "vescicola"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Lesioni_elementari_della_cute",
+		"link": "https://it.wikipedia.org/wiki/Lesioni_elementari_della_cute",
 		"synset_id": "bn:00000392n",
 		"name": "Lesioni elementari della cute",
 		"descriptions": ["Segno che deturpa il viso lasciato da una ferita", "Le lesioni elementari della cute comprendono un insieme di alterazioni dell'apparato tegumentario rilevabili in corso di esame obiettivo dermatologico e la cui corretta interpretazione permette di distinguere le principali malattie cutanee."],
@@ -3923,7 +3878,7 @@
 	}, {
 		"url": "sore-throat",
 		"senses": ["faringite", "laringite", "mal di gola", "faringiti", "gola prima"],
-		"wikipedia": "https://it.wikipedia.org/wiki/faringite",
+		"link": "https://it.wikipedia.org/wiki/faringite",
 		"synset_id": "bn:00061896n",
 		"name": "faringite",
 		"descriptions": ["Infiammazione della laringe", "La faringite, chiamata comunemente \"mal di gola\", \u00e8 un'infiammazione della faringe, acuta o cronica, che provoca difficolt\u00e0 nel deglutire e talvolta pu\u00f2 essere accompagnata da tosse e secrezione, etc."],
@@ -3968,7 +3923,7 @@
 	}, {
 		"url": "sweating",
 		"senses": ["traspirazione", "sudorazione", "sudore", "iperidrosi", "diaforesi", "hidrosis", "sudation", "diaforetica", "diaforetico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/sudorazione",
+		"link": "https://it.wikipedia.org/wiki/sudorazione",
 		"synset_id": "bn:00026874n",
 		"name": "sudorazione",
 		"descriptions": ["Eliminazione di umori da un corpo attraverso i pori dell'epidermide", "Il sudore \u00e8 un liquido ipotonico secreto dalle ghiandole sudoripare della pelle."],
@@ -4013,7 +3968,7 @@
 	}, {
 		"url": "thirst",
 		"senses": ["arsura", "sete", "avere sete"],
-		"wikipedia": "https://it.wikipedia.org/wiki/sete",
+		"link": "https://it.wikipedia.org/wiki/sete",
 		"synset_id": "bn:00076968n",
 		"name": "sete",
 		"descriptions": ["Sensazione fisica generata dal bisogno di ingerire acqua", "La sete \u00e8 il desiderio istintivo di assunzione di liquidi che si manifesta negli animali e li porta a bere.", "Bisogno di bere"],
@@ -4096,7 +4051,7 @@
 	}, {
 		"url": "underweight",
 		"senses": ["asciuttezza", "esilit\u00e0", "magrezza", "sottopeso"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Sottopeso",
+		"link": "https://it.wikipedia.org/wiki/Sottopeso",
 		"synset_id": "bn:00050430n",
 		"name": "Sottopeso",
 		"descriptions": ["Sottopeso \u00e8 quella situazione in cui un essere umano si trova qualora pesi meno rispetto al suo peso forma."],
@@ -4141,7 +4096,7 @@
 	}, {
 		"url": "weakness",
 		"senses": ["bolsaggine", "cascaggine", "fiacchezza", "gracilit\u00e0", "indebolimento", "languore", "mala voglia", "malavoglia", "mollezza", "astenia", "debolezza", "debolezza muscolare"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Astenia",
+		"link": "https://it.wikipedia.org/wiki/Astenia",
 		"synset_id": "bn:00080742n",
 		"name": "Astenia",
 		"descriptions": ["L'astenia \u00e8 un sintomo aspecifico che consiste nella riduzione della forza muscolare."],
@@ -4397,7 +4352,7 @@
 	}, {
 		"url": "acne-or-pimples",
 		"senses": ["brufolo", "pustola", "foruncolo", "bruffolo", "foruncoloso", "acne"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Acne",
+		"link": "https://it.wikipedia.org/wiki/Acne",
 		"synset_id": "bn:00000944n",
 		"name": "Acne",
 		"descriptions": ["Condizioni della pelle che si verificano in tutte le et\u00e0, che appaiono come protuberanze rosse unte, a volte con ridimensionamento, brufoli o punti neri; in genere sul viso, sul torace o sulla schiena"],
@@ -4510,7 +4465,7 @@
 	}, {
 		"url": "anxiety-and-nervousness",
 		"senses": ["ansia", "ansiet\u00e0", "Disturbo d'ansia", "Sindrome ansiosa", "nervosismo", "stress incontrollabile", "sensazione di panico", "tensione incontrollabile", "preoccupazione costante"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Ansia",
+		"link": "https://it.wikipedia.org/wiki/Ansia",
 		"synset_id": "bn:00004801n",
 		"name": "Ansia e nervosismo",
 		"descriptions": ["Sensazione eccessivamente intensa di preoccupazione, nervosismo o disagio, spesso descritta come 'sentirsi intrappolati'. Pu\u00f2 causare altri sintomi, come sudorazione, irritabilit\u00e0, problemi di sonno, nausea o problemi di respirazione", "L'ansia \u00e8 uno stato psichico, prevalentemente cosciente, di un individuo caratterizzato da una sensazione di preoccupazione o paura, pi\u00f9 o meno intensa e duratura, che pu\u00f2 essere connessa o meno a uno stimolo specifico immediatamente individuabile ovvero una mancata risposta di adattamento dell'organismo a una qualunque determinata e soggettiva fonte di stress per l'individuo stesso."],
@@ -4727,7 +4682,7 @@
 	}, {
 		"url": "coughing-up-sputum",
 		"senses": ["tosse", "Mucolitico", "catarro", "muco", "produzione di espettorato"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Espettorato",
+		"link": "https://it.wikipedia.org/wiki/Espettorato",
 		"synset_id": "bn:00061995n",
 		"name": "Tossire catarro",
 		"descriptions": ["Fluido appiccicoso (bianco, trasparente, verde chiaro, giallo chiaro o marrone chiaro) proveniente dalla parte posteriore della gola dopo la tosse", "Lo sputo \u00e8 un getto di saliva, catarro o altre sostanze espulse dalla bocca.", "L'espettorato, conosciuto pi\u00f9 comunemente come catarro \u00e8 il materiale secreto dalle mucose respiratorie, talvolta emesso all'esterno tramite la tosse grassa"],
@@ -4772,7 +4727,7 @@
 	}, {
 		"url": "cramps-and-spasms",
 		"senses": ["spasmo", "crampo", "Spasmo muscolare", "Crampi muscolari"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Crampo",
+		"link": "https://it.wikipedia.org/wiki/Crampo",
 		"synset_id": "bn:00023517n",
 		"name": "Spasmi e crampi",
 		"descriptions": ["I crampi sono dolori muscolari improvvisi e violenti causati dalla contrazione involontaria di uno o pi\u00f9 muscoli.", "Lo spasmo \u00e8 una contrazione improvvisa e involontaria di un muscolo, di un organo cavo o di un orifizio. "],
@@ -4817,7 +4772,7 @@
 	}, {
 		"url": "delusions-or-hallucinations",
 		"senses": ["Allucinazioni", "Disturbo allucinatorio", "Udire voci", "Paranoia", "Vedere cose che non ci sono", "Episodio Psicotico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Allucinazione",
+		"link": "https://it.wikipedia.org/wiki/Allucinazione",
 		"synset_id": "bn:00042680n",
 		"name": "Allucinazioni",
 		"descriptions": ["Stato per cui si percepiscono come reali oggetti o fenomeni che non esistono, spec. dovuto a disturbi del sistema nervoso", "L'allucinazione \u00e8 una falsa percezione in assenza di uno stimolo esterno reale. "],
@@ -4905,7 +4860,7 @@
 	}, {
 		"url": "diminished-hearing",
 		"senses": ["sordit\u00e0", "cofosi", "danno all'udito", "ipoacusia", "Sordo", "perdita uditiva parziale", "perdita dell'udito", "udito compromesso", "udito diminuito"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Sordit%C3%A0",
+		"link": "https://it.wikipedia.org/wiki/Sordit%C3%A0",
 		"synset_id": "bn:00025552n",
 		"name": "Sordit\u00e0",
 		"descriptions": ["La sordit\u00e0 \u00e8 la perdita dell'udito: pu\u00f2 essere legata alla malattia, all'eccessiva esposizione al rumore, all'assunzione di determinati farmaci o antibiotici ecc.", "Perdita dell udito", "Diminuzione, o perdita dell'udito"],
@@ -4950,7 +4905,7 @@
 	}, {
 		"url": "diminished-vision",
 		"senses": ["Ipovisione", "Ipovedenti", "Visione offuscata", "Difficolt\u00e0 a leggere", "Vista sfocata", "Visione bassa", "Visione alterata", "Visione diminuita"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Ipovisione",
+		"link": "https://it.wikipedia.org/wiki/Ipovisione",
 		"synset_id": "bn:16605168n",
 		"name": "Visione ridotta",
 		"descriptions": ["L'ipovisione \u00e8 una condizione di acutezza visiva molto limitata che ha notevoli conseguenze sulla vita quotidiana. "],
@@ -4995,7 +4950,7 @@
 	}, {
 		"url": "disturbance-of-memory",
 		"senses": ["amnesia", "dimenticanza", "perdita di memoria", "perdita temporanea di memoria", "cattiva memoria", "scarsa memoria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Amnesia",
+		"link": "https://it.wikipedia.org/wiki/Amnesia",
 		"synset_id": "bn:00003565n",
 		"name": "Amnesia",
 		"descriptions": ["Perdita parziale o totale della memoria", "Nel linguaggio medico, l'amnesia \u00e8 un disturbo della memoria a lungo termine episodica.", "Disturbo della memoria a lungo termine episodica"],
@@ -5169,7 +5124,7 @@
 	}, {
 		"url": "fluid-retention",
 		"senses": ["edema", "idrope", "Idropisia", "Edematosi", "Edemi", "Ritenzione idrica"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Edema",
+		"link": "https://it.wikipedia.org/wiki/Edema",
 		"synset_id": "bn:00028853n",
 		"name": "Ritenzione idrica",
 		"descriptions": ["Accumulo di liquido organico nei tessuti", "L'edema \u00e8 un accumulo di liquidi negli spazi interstiziali dell'organismo"],
@@ -5334,7 +5289,7 @@
 	}, {
 		"url": "frontal-headache",
 		"senses": ["sinusite"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Sinusite",
+		"link": "https://it.wikipedia.org/wiki/Sinusite",
 		"synset_id": "bn:00071789n",
 		"name": "Sinusite",
 		"descriptions": ["Infiammazione dei seni frontali o di quelli mascellari", "La sinusite \u00e8 un processo infiammatorio, acuto o cronico, delle mucose dei seni paranasali, spesso accompagnata da un processo infettivo primario o secondario."],
@@ -5681,7 +5636,7 @@
 	}, {
 		"url": "involuntary-urination",
 		"senses": ["enuresi", "Incontinenza urinaria", "incontinenza notturna"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Incontinenza_urinaria",
+		"link": "https://it.wikipedia.org/wiki/Incontinenza_urinaria",
 		"synset_id": "bn:00031066n",
 		"name": "Incontinenza",
 		"descriptions": ["Emissione involontaria di urine, soprattutto durante il sonno.", "L'incontinenza urinaria \u00e8 una involontaria perdita delle urine, che determina un peggioramento della qualit\u00e0 della vita. "],
@@ -5812,7 +5767,7 @@
 	}, {
 		"url": "itching-of-skin",
 		"senses": ["prurito", "pizzicore"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Prurito",
+		"link": "https://it.wikipedia.org/wiki/Prurito",
 		"synset_id": "bn:00047727n",
 		"name": "Prurito della pelle",
 		"descriptions": ["Una sensazione o un desiderio di grattare o sfregare un'area della pelle pi\u00f9 del solito"],
@@ -5986,7 +5941,7 @@
 	}, {
 		"url": "loss-of-sensation",
 		"senses": ["perdita di sensibilit\u00e0", "intorpidimento", "anestesia", "Ipoestesia"],
-		"wikipedia": "http://it.wikipedia.org/wiki/Ipoestesia",
+		"link": "http://it.link.org/wiki/Ipoestesia",
 		"synset_id": "bn:00045554n",
 		"name": "Perdita di sensibilit\u00e0",
 		"descriptions": ["L'ipoestesia \u00e8 una diminuzione della sensibilit\u00e0 e della relativa risposta dell\u2019individuo a un determinato stimolo."],
@@ -6286,7 +6241,7 @@
 	}, {
 		"url": "pain-or-soreness-of-breast",
 		"senses": ["mastalgia", "mastodinia", "Dolore al seno"],
-		"wikipedia": "http://it.wikipedia.org/wiki/mastalgia",
+		"link": "http://it.link.org/wiki/mastalgia",
 		"synset_id": "bn:00053711n",
 		"name": "Dolore al seno",
 		"descriptions": ["Con il termine mastalgia, e con i sinonimi mastodinia e mammalgia, si intende, in campo medico, una forma acuta di dolore riscontrabile al seno. "],
@@ -6417,7 +6372,7 @@
 	}, {
 		"url": "problems-with-movement",
 		"senses": ["atassia", "Atass\u00eca", "Problemi con il movimento", "Goffaggine", "Difficolt\u00e0 nel camminare", "Discinesia", "Zoppicamento", "Barcollamento", "Andatura incerta", "Non coordinamento", "andatura instabile"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Atassia",
+		"link": "https://it.wikipedia.org/wiki/Atassia",
 		"correlate_symptoms": [{
 				"name": "weakness",
 				"probability": 41
@@ -6972,7 +6927,7 @@
 	}, {
 		"url": "spots-or-clouds-in-vision",
 		"senses": ["Miodesopsia", "Mosche volanti", "Mouches volantes", "Macchie nella visione", "nuvole nella visione", "puntini nella visione"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Miodesopsia",
+		"link": "https://it.wikipedia.org/wiki/Miodesopsia",
 		"synset_id": "bn:00035268n",
 		"name": "Miodesopsia",
 		"descriptions": ["Le miodesopsie, colloquialmente definite mosche volanti o muscae volitantes, sono un fenomeno entoptico dovute a una non perfetta trasparenza del corpo vitreo."],
@@ -7438,7 +7393,7 @@
 	}, {
 		"url": "absence-of-menstruation",
 		"senses": ["amenorrea", "amenorree", "assenza di mestruazioni", "mancanza di mestruazioni"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Amenorrea",
+		"link": "https://it.wikipedia.org/wiki/Amenorrea",
 		"synset_id": "bn:00003335n",
 		"name": "Amenorrea",
 		"descriptions": ["L'amenorrea \u00e8 l'assenza di mestruazioni"],
@@ -8179,7 +8134,7 @@
 	}, {
 		"url": "breathing-fast",
 		"senses": ["iperventilazione", "iperpnea", "respirare velocemente"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Iperventilazione",
+		"link": "https://it.wikipedia.org/wiki/Iperventilazione",
 		"synset_id": "bn:00045551n",
 		"name": "Iperventilazione",
 		"descriptions": ["Una sensazione che la respirazione sia pi\u00f9 rapida del solito quando si \u00e8 a riposo; per definizione pi\u00f9 di 20 respiri al minuto", "Si definisce iperventilazione una serie frequente di atti respiratori che portano ad un aumento massiccio di ossigeno ed a una riduzione notevole dell'anidride carbonica nel sangue."],
@@ -8430,7 +8385,7 @@
 	}, {
 		"url": "decreased-heart-rate",
 		"senses": ["bradicardia", "brachicardia", "Bradicardico"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Bradicardia",
+		"link": "https://it.wikipedia.org/wiki/Bradicardia",
 		"synset_id": "bn:00012651n",
 		"name": "Bradicardia",
 		"descriptions": ["La bradicardia \u00e8 una condizione definita come riduzione della frequenza cardiaca inferiore al valore di 60 battiti per minuto. "],
@@ -8906,7 +8861,7 @@
 	}, {
 		"url": "excessive-urination-at-night",
 		"senses": ["Nicturia", "urinare di notte"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Nicturia",
+		"link": "https://it.wikipedia.org/wiki/Nicturia",
 		"synset_id": "bn:00057843n",
 		"name": "Nicturia",
 		"descriptions": ["La nicturia \u00e8 una disfunzione dell'apparato urinario, consistente nella necessit\u00e0, anche molto frequente, di eliminazione dell'urina durante il riposo notturno; pi\u00f9 propriamente si parla di nicturia quando si osserva una escrezione di liquidi notturna totale maggiore di quella diurna.", "Svegliarsi due o pi\u00f9 volte nel cuore della notte per poter urinare"],
@@ -8994,7 +8949,7 @@
 	}, {
 		"url": "eye-deviation",
 		"senses": ["Deviazione dell'occhio", "Occhio pigro", "Strabismo", "Strabico", "Strabismo di Venere"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Strabismo",
+		"link": "https://it.wikipedia.org/wiki/Strabismo",
 		"synset_id": "bn:00073763n",
 		"name": "Deviazione dell'occhio",
 		"descriptions": ["Gli occhi non sono allineati l'uno con l'altro quando guardano un oggetto (un occhio potrebbe guardare l'oggetto mentre l'altro potrebbe guardare altrove); pu\u00f2 causare una visione doppia", "Deviazione transitoria o permanente dell'asse oculare", "Lo strabismo consiste in una deviazione degli assi visivi causata da un malfunzionamento dei muscoli oculari estrinseci che pu\u00f2 non dare conseguenze evidenti ma che spesso porta alla perdita di un importante indizio di profondit\u00e0."],
@@ -9211,7 +9166,7 @@
 	}, {
 		"url": "fears-and-phobias",
 		"senses": ["paura", "timore", "spavento", "fifa", "terrore"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Paura",
+		"link": "https://it.wikipedia.org/wiki/Paura",
 		"synset_id": "bn:00033854n",
 		"name": "Paura",
 		"descriptions": ["Stato d'animo, costituito da inquietudine e turbamento, che si prova al pensiero o alla presenza di un pericolo", "La paura \u00e8 un'intensa emozione derivata dalla percezione di un pericolo, reale o supposto."],
@@ -9849,7 +9804,7 @@
 	}, {
 		"url": "heavy-menstrual-flow",
 		"senses": ["menorragia", "ipermenorrea", "flusso mestruazione intenso", "Menorragie"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Menorragia",
+		"link": "https://it.wikipedia.org/wiki/Menorragia",
 		"synset_id": "bn:00045520n",
 		"name": "Menorragia",
 		"descriptions": ["Per menorragia in campo medico, si intende un'eccessiva perdita di sangue durante la fase mestruale del ciclo."],
@@ -9980,7 +9935,7 @@
 	}, {
 		"url": "hysterical-behavior",
 		"senses": ["frenesia", "delirio", "smania"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Isteria",
+		"link": "https://it.wikipedia.org/wiki/Isteria",
 		"synset_id": "bn:00023620n",
 		"name": "Delirio",
 		"descriptions": ["Stato mentale di grave turbamento e agitazione"],
@@ -10025,7 +9980,7 @@
 	}, {
 		"url": "incontinence-of-stool",
 		"senses": ["Incontinenza fecale", "Incontinenza anale"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Incontinenza_fecale",
+		"link": "https://it.wikipedia.org/wiki/Incontinenza_fecale",
 		"synset_id": "bn:01034076n",
 		"name": "Incontinenza fecale",
 		"descriptions": ["L'incontinenza fecale \u00e8 la perdita del controllo dell'atto della defecazione, che avviene in maniera involontaria."],
@@ -10285,7 +10240,7 @@
 	}, {
 		"url": "itching-of-the-anus",
 		"senses": ["Prurito anale"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Prurito_anale",
+		"link": "https://it.wikipedia.org/wiki/Prurito_anale",
 		"synset_id": "bn:00064960n",
 		"name": "Prurito anale",
 		"descriptions": ["Il prurito anale \u00e8 un sintomo molto fastidioso che peggiora in genere durante la notte, nei periodi caldi dell'anno o dopo esercizio fisico. "],
@@ -11212,7 +11167,7 @@
 	}, {
 		"url": "low-urine-output",
 		"senses": ["oliguria", "Oligoanuria"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Oliguria",
+		"link": "https://it.wikipedia.org/wiki/Oliguria",
 		"synset_id": "bn:00058886n",
 		"name": "Oliguria",
 		"descriptions": ["L'oliguria indica una diminuita escrezione urinaria, dovuta sia per disfunzione dell'apparato urinario, sia per insufficienza renale acuta segno di una ridotta funzionalit\u00e0 renale o per altre cause.", "Diminuzione della quantit\u00e0 di urina prodotta negli ultimi giorni o pi\u00f9 a lungo; pu\u00f2 notare una diminuzione della frequenza della minzione, una diminuzione della quantit\u00e0 di urina durante la minzione o urine gialle molto scure"],
@@ -11896,7 +11851,7 @@
 	}, {
 		"url": "painful-menstruation",
 		"senses": ["dismenorrea", "Mestruazione dolorosa"],
-		"wikipedia": "http://it.wikipedia.org/wiki/dismenorrea",
+		"link": "http://it.link.org/wiki/dismenorrea",
 		"synset_id": "bn:00029320n",
 		"name": "Dismenorrea",
 		"descriptions": ["La dismenorrea o mestruazione dolorosa \u00e8 un'alterazione mestruale, accompagnata da disturbi generali o locali e da dolori, che interessano in genere la regione pelvica e l'addome."],
@@ -12261,7 +12216,7 @@
 	}, {
 		"url": "ringing-in-ear",
 		"senses": ["acufene", "Tinnito", "Ronzio auricolare", "Tinnitus"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Acufene",
+		"link": "https://it.wikipedia.org/wiki/Acufene",
 		"synset_id": "bn:00077358n",
 		"name": "Ronzio auricolare",
 		"descriptions": ["Un acufene, in medicina, \u00e8 un disturbo uditivo costituito da rumori che l'orecchio percepisce come fastidiosi a tal punto da influire sulla qualit\u00e0 della vita del soggetto affettone."],
@@ -12779,7 +12734,7 @@
 	}, {
 		"url": "stuttering-or-stammering",
 		"senses": ["balbuzie", "psellismo", "balbettamento", "balbettio", "barbugliamento"],
-		"wikipedia": "http://it.wikipedia.org/wiki/balbuzie",
+		"link": "http://it.link.org/wiki/balbuzie",
 		"synset_id": "bn:00073887n",
 		"name": "Balbuzie",
 		"descriptions": ["Difetto del linguaggio che impedisce la corretta pronunzia delle parole", "La balbuzie, sia essa clonica o tonica, \u00e8 un disturbo della parola in cui la fluenza \u00e8 interrotta da involontarie ripetizioni e prolungamenti di suoni, sillabe, parole o frasi, o ancora da involontarie pause o blocchi in cui la persona che balbetta non \u00e8 in grado di produrre suoni."],
@@ -13297,7 +13252,7 @@
 	}, {
 		"url": "too-little-hair",
 		"senses": ["alopecia", "Alopecia androgenetica", "calvizie", "calvezza", "pelata"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Alopecia",
+		"link": "https://it.wikipedia.org/wiki/Alopecia",
 		"synset_id": "bn:00008088n",
 		"name": "Alopecia",
 		"descriptions": ["Si definisce alopecia il processo di diminuzione della qualit\u00e0 e della quantit\u00e0 di capelli o la loro scomparsa.", "L'Alopecia androgenetica \u00e8 una tipologia di perdita di capelli dovuta ad una suscettibilit\u00e0 del follicolo pilifero ad una miniaturizzazione di tipo androgenetico. "],
@@ -13428,7 +13383,7 @@
 	}, {
 		"url": "unwanted-hair",
 		"senses": ["irsutismo"],
-		"wikipedia": "https://it.wikipedia.org/wiki/Irsutismo",
+		"link": "https://it.wikipedia.org/wiki/Irsutismo",
 		"synset_id": "bn:00044238n",
 		"name": "Irsutismo",
 		"descriptions": ["L'irsutismo, in campo medico, \u00e8 il fenomeno di crescita anomala di peli in persone di sesso femminile, in sedi dove normalmente \u00e8 assente.", "Qualsiasi crescita di peli in un'area che \u00e8 indesiderabile e fuori dall'ordinario (per esempio capelli scuri e spessi sul viso o sul petto di una donna)"],

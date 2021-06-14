@@ -2,13 +2,18 @@
 
 import json
 from nltk.tokenize import word_tokenize
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import CommandHandler, CallbackQueryHandler
+import telegram
+
 
 class classeSintomo:
-    def __init__(self, url, sinonimiInput, nomeIt, descInput):
+    def __init__(self, url, sinonimiInput, nomeIt, descInput, linkWiki):
         self.url = url
         self.sinonimi = sinonimiInput
         self.nomeIT = nomeIt
         self.descrizione = descInput
+        self.linkWiki = linkWiki
         
     def setUrl(self, url):
         self.url = url
@@ -27,6 +32,8 @@ class classeSintomo:
         return self.sinonimi
     def getDescrizione(self):
         return self.descrizione
+    def getLinkWiki(self):
+        return self.linkWiki
  
 sw_list = {"ho","mi","sento","oggi","stamattina","prima","avevo","avuto"}
 
@@ -39,12 +46,28 @@ sintomi = {}
 contatoresintomi = 0;
 
 for sintomo in datasint:
-    sintomi[sintomo["url"]] = classeSintomo(sintomo["url"], sintomo['senses'], sintomo['name'], sintomo['descriptions'])
+    sintomi[sintomo["url"]] = classeSintomo(sintomo["url"], sintomo['senses'], sintomo['name'], sintomo['descriptions'], sintomo.get('link'))
     contatoresintomi += 1;
 f.close()
 
+def buttonCallback(update, context, listaSintomiDefinitiva):
+    context.bot.send_message(chat_id=update.effective_chat.id, text='Ho trovato diversi sintomi: ')
+    
+    keyboard = []
+    for sintomo in listaSintomiDefinitiva:
+        keyboard.append([InlineKeyboardButton(sintomo.getNome(), callback_data = sintomo.getUrl())])
 
-def riconoscimentoSintomo(inputSintomo,update, context):
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    
+    update.message.reply_text('Scegli uno tra questi:', reply_markup=reply_markup)
+
+def risultatoCallBack(update, context):
+    query = update.callback_query
+    query.answer()
+    query.edit_message_text(text=f"Digita: *{query.data}* per confermare", parse_mode=telegram.ParseMode.MARKDOWN)
+    
+
+def riconoscimentoSintomo(inputSintomo,update, context, dispatcher, updater):
     inputSintomo = inputSintomo.lower()
     #Tokenize input
     text_tokens = word_tokenize(inputSintomo)
@@ -63,8 +86,7 @@ def riconoscimentoSintomo(inputSintomo,update, context):
     
     for sintomo in sintomi: # per ogni sintomo in malattia
         trovato = False
-
-        if(inputSintomo in sintomi[sintomo].getNome().lower()): # Se l'input è nel nome, segnamo il trovato su true.
+        if(inputSintomo in sintomi[sintomo].getNome().lower() or inputSintomo == sintomi[sintomo].getUrl().lower()): # Se l'input è nel nome, segnamo il trovato su true.
             trovato = True
         else:
             for sinonimo in sintomi[sintomo].getSinonimi(): # Se l'input non è nel nome, cerchiamo nei sinonimi
@@ -80,11 +102,11 @@ def riconoscimentoSintomo(inputSintomo,update, context):
             listaSintomiDefinitiva.append(sintomi[sintomo])
         
     if(len(listaSintomiDefinitiva) > 1):
-        context.bot.send_message(chat_id=update.effective_chat.id, text='Ho trovato diversi sintomi: ')
-        for sintomo in listaSintomiDefinitiva:
-            context.bot.send_message(chat_id=update.effective_chat.id, text='- ' + sintomi[sintomo].getNome())
-        context.bot.send_message(chat_id=update.effective_chat.id, text='Potresti specificarmi uno tra questi?')
-        return '0'
+            context.bot.send_message(chat_id=update.effective_chat.id, text='/risultato')
+            updater.dispatcher.add_handler(CommandHandler('risultato', buttonCallback(update, context, listaSintomiDefinitiva)))
+            updater.dispatcher.add_handler(CallbackQueryHandler(risultatoCallBack))
+
+            return '0' 
     else:
         if (len(listaSintomiDefinitiva) == 0):
             #print('Non ho trovato nessun sintomo corrispondente alla tua descrizione. \nPotresti essere più preciso?')
@@ -92,16 +114,38 @@ def riconoscimentoSintomo(inputSintomo,update, context):
             return '0'
     
     #Quando la lista è formata da solo un sintomo
-    context.bot.send_message(chat_id=update.effective_chat.id, text=listaSintomiDefinitiva[0].getNome())
+    
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Sintomo acquisito correttamente.\nHai altri sintomi?")
+    
     return listaSintomiDefinitiva[0]
     
+class Malattia:
+    def __init__(self, malattiaInput, descInput, linkInput):
+        self.nomeMalattia = malattiaInput
+        self.descrizione = descInput
+        self.linkWiki = linkInput
+        
+    def getNome(self):
+        return self.nomeMalattia 
+    def getDescrizione(self):
+        return self.descrizione 
+    def getLinkWiki(self):
+        return self.linkWiki 
+    
+    
 
-def predizioneMalattia(listaSintomiUtente):   
+def predizioneMalattia(listaSintomiUtente):
     f=open("res/datasetConditionsIT.json")
     
     x =f.read()
     
     data = json.loads(x)
+    
+    listaMalattie = {}
+    
+    for malattia in data:
+        listaMalattie[malattia["name"]] = Malattia(malattia['name'], malattia['descriptions'], malattia.get('wikipedia'))
+        
     f.close()
 
     risultati = {}
@@ -122,5 +166,5 @@ def predizioneMalattia(listaSintomiUtente):
             risultati[malattia["name"]] = probabilita/(denominatore + contatoresintomi)
             
     maxProbability = max(risultati, key=risultati.get) # Just use 'min' instead of 'max' for minimum.
-    print(maxProbability)
-    return maxProbability
+    
+    return listaMalattie.get(maxProbability)
