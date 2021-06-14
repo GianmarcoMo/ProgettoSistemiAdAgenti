@@ -63,7 +63,10 @@ def echo(update, context):
             # predizione malattia
             risultato = riconoscimentoSintomi.predizioneMalattia(utente.getSintomi())
             context.bot.send_message(chat_id=update.effective_chat.id, text=f"Secondo i dati che miei fornito potresti avere: *{risultato.getNome()}*", parse_mode=telegram.ParseMode.MARKDOWN)
-            context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getLinkWiki())
+            if (risultato.getLinkWiki()!=None):
+                context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getLinkWiki())
+            else:
+                 context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getDescrizione())
 
         else:
             utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context, dispatcher, updater))
