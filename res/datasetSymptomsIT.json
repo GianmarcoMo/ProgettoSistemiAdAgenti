@@ -1,4 +1,10 @@
 [
+	{
+		"url": "disturbance-of-smell-or-taste",
+		"senses": ["perdita improvvisa dell’olfatto e/o del gusto","perdita olfatto e/o gusto","perdita olfatto", "perdita gusto"],
+		"name": "perdita olfatto e/o gusto",
+		"descriptions": ["Le persone con disturbi del gusto possono assaggiare cose che non ci sono, potrebbero non essere in grado di distinguere i gusti o non assaporare affatto. Le persone con disturbi dell'olfatto possono perdere il senso dell'olfatto o le cose possono avere un odore diverso. Un odore di cui godevano una volta può ora avere un cattivo odore per loro."],
+	},
    {
       "url":"abnormal-involuntary-movements",
       "name":"Disordini del movimento",
@@ -35,6 +41,7 @@
       "name":"mal di schiena",
       "link":"https://it.wikipedia.org/wiki/Dorsopatia",
       "senses":[
+		 "dolore alla schiena"	
          "dorsopatia",
          "mal di schiena",
          "back pain",

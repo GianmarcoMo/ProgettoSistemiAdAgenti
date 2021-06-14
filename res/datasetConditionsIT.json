@@ -1,5 +1,55 @@
 [
    {
+		"url": "Covid-19",
+		"symptoms": [{
+				"probability": 89,
+				"name": "cough"
+			},{
+				"probability": 68,
+				"name": "fever"
+			}, {
+				"probability": 60,
+				"name": "wheezing"
+			}, {
+				"probability": 40,
+				"name": "disturbance-of-smell-or-taste"
+			}, {
+				"probability": 38,
+				"name": "sore-throat"
+			}, {
+				"probability": 35,
+				"name": "diarrhea"
+			}, {
+				"probability": 26,
+				"name": "headache"
+			}, {
+				"probability": 11,
+				"name": "sharp-chest-pain"
+			},{
+				"probability": 11,
+				"name": "dizziness"
+			}, {
+				"probability": 10,
+				"name": "feeling-ill"
+			}, {
+				"probability": 10,
+				"name": "muscle-pain"
+			}, {
+				"probability": 10,
+				"name": "nausea"
+			}, {
+				"probability": 10,
+				"name": "vomiting"
+			},{
+				"probability": 5,
+				"name": "lower-abdominal-pain"
+			}
+		],
+		"name": "COVID-19",
+		"wikipedia": "https://it.wikipedia.org/wiki/COVID-19",
+		"senses": ["mal di gola", "tosse", "affanno", "dolori al petto", "febbre", "perdita improvvisa dell’olfatto e/o del gusto", "mal di testa", "malessere","debolezza","dolori muscolari","nausea","vomito","diarrea","mal di pancia","eruzioni cutanee"],
+		"descriptions": ["La sindrome respiratoria acuta grave Coronavirus-2 (SARS-CoV-2) \u00e8  il nome dato al nuovo coronavirus del 2019. COVID-19 \u008e il nome dato alla malattia associata al virus. SARS-CoV-2 \u00e8 un nuovo ceppo di coronavirus che non \u00e8 stato precedentemente identificato nell'uomo. "]
+	},{
       "url":"abdominal-hernia",
       "name":"ernia",
       "symptoms":[

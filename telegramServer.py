@@ -66,7 +66,7 @@ def echo(update, context):
             if (risultato.getLinkWiki()!=None):
                 context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getLinkWiki())
             else:
-                 context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getDescrizione())
+                 context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getDescrizione()[0])
 
         else:
             utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context, dispatcher, updater))
