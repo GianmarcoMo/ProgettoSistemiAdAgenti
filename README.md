@@ -74,10 +74,10 @@ Dopo aver indicato tutti i sintomi da parte dell'utente, viene effettuata la pre
 
 ## Esempio 1
 
-<img src="Documentazione%20Campa100Anni%2079ca29ca09814bde8aab80b9e7f2464a/35739CE8-BF14-42E1-8FEE-9B4811669F12.jpeg" alt="drawing" width="400"/>
+<img src="documentazioneMedia/35739CE8-BF14-42E1-8FEE-9B4811669F12.jpeg" alt="drawing" width="400"/>
 
 ## Esempio 2
 
-<img src="Documentazione%20Campa100Anni%2079ca29ca09814bde8aab80b9e7f2464a/9807754B-1DA4-49EA-99E9-0EB425CF4A2C.jpeg" alt="drawing" width="400"/>
+<img src="documentazioneMedia/9807754B-1DA4-49EA-99E9-0EB425CF4A2C.jpeg" alt="drawing" width="400"/>
 
-<img src="Documentazione%20Campa100Anni%2079ca29ca09814bde8aab80b9e7f2464a/B2AF7AFD-D75A-4E13-A834-2CB254EF9159.jpeg" alt="drawing" width="400"/>
+<img src="documentazioneMedia/B2AF7AFD-D75A-4E13-A834-2CB254EF9159.jpeg" alt="drawing" width="400"/>

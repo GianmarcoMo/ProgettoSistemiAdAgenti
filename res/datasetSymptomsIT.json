@@ -1,10 +1,10 @@
 [
-	{
-		"url": "disturbance-of-smell-or-taste",
-		"senses": ["perdita improvvisa dell’olfatto e/o del gusto","perdita olfatto e/o gusto","perdita olfatto", "perdita gusto"],
-		"name": "perdita olfatto e/o gusto",
-		"descriptions": ["Le persone con disturbi del gusto possono assaggiare cose che non ci sono, potrebbero non essere in grado di distinguere i gusti o non assaporare affatto. Le persone con disturbi dell'olfatto possono perdere il senso dell'olfatto o le cose possono avere un odore diverso. Un odore di cui godevano una volta può ora avere un cattivo odore per loro."]
-	},
+   {
+      "url": "disturbance-of-smell-or-taste",
+      "senses": ["perdita improvvisa dell’olfatto e/o del gusto","perdita olfatto e/o gusto","perdita olfatto", "perdita gusto"],
+      "name": "perdita olfatto e/o gusto",
+      "descriptions": ["Le persone con disturbi del gusto possono assaggiare cose che non ci sono, potrebbero non essere in grado di distinguere i gusti o non assaporare affatto. Le persone con disturbi dell'olfatto possono perdere il senso dell'olfatto o le cose possono avere un odore diverso. Un odore di cui godevano una volta può ora avere un cattivo odore per loro."]
+   },
    {
       "url":"abnormal-involuntary-movements",
       "name":"Disordini del movimento",
@@ -2835,18 +2835,6 @@
       ],
       "descriptions":[
          "Qualsiasi problema con il parlare, compresa la raucedenza estrema o la mancanza di voce, problemi di comprensione del linguaggio, linguaggio confuso, comprensione del linguaggio"
-      ]
-   },
-   {
-      "url":"disturbance-of-smell-or-taste",
-      "name":"Perturbazione dell'olfatto o del gusto",
-      "link":null,
-      "senses":[
-         "Perturbazione dell'olfatto",
-         "perturbazione del gusto"
-      ],
-      "descriptions":[
-         "Qualsiasi cambiamento nel senso dell'olfatto o del gusto, come diminuzione o incapacit\u00e0 di odorare o assaggiare, o rsapori o odori che non hanno una fonte chiara (ad esempio un gusto metallico costante)"
       ]
    },
    {

@@ -6,10 +6,9 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, CallbackQueryHandler
 import telegram
 
-
 def conferma():
     return sintomi.get(test.getStato()[0])
-class Strunz:
+class jsonButton:
     def __init__(self):
         self.stati = list()
     def getStato(self):
@@ -17,8 +16,6 @@ class Strunz:
     def nuovoStato(self):
         self.stati = list()
     
-
-
 class classeSintomo:
     def __init__(self, url, sinonimiInput, nomeIt, descInput, linkWiki):
         self.url = url
@@ -55,16 +52,16 @@ y =f.read()
 datasint = json.loads(y)
 
 sintomi = {}
-contatoresintomi = 0;
+contatoresintomi = 0
 
 for sintomo in datasint:
     sintomi[sintomo["url"]] = classeSintomo(sintomo["url"], sintomo['senses'], sintomo['name'], sintomo['descriptions'], sintomo.get('link'))
     contatoresintomi += 1;
 f.close()
-test = Strunz()
+test = jsonButton()
+
 def buttonCallback(update, context, listaSintomiDefinitiva):
     context.bot.send_message(chat_id=update.effective_chat.id, text='Ho trovato diversi sintomi: ')
-    
     test.nuovoStato()
     keyboard = []
     for sintomo in listaSintomiDefinitiva:
@@ -124,9 +121,6 @@ def riconoscimentoSintomo(inputSintomo,update, context, dispatcher, updater):
             updater.dispatcher.add_handler(CommandHandler('risultato', buttonCallback(update, context, listaSintomiDefinitiva)))
             updater.dispatcher.add_handler(CallbackQueryHandler(risultatoCallBack))
             
-            
-            
-            
             return '0' 
     else:
         if (len(listaSintomiDefinitiva) == 0):
@@ -152,8 +146,6 @@ class Malattia:
         return self.descrizione 
     def getLinkWiki(self):
         return self.linkWiki 
-    
-    
 
 def predizioneMalattia(listaSintomiUtente):
     f=open("res/datasetConditionsIT.json")

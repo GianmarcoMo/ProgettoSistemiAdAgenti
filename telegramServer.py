@@ -26,6 +26,7 @@ class Persona:
             self.statoSintomi = False
         else: 
             # Si disattiva l'acquisizione dei sintomi
+            self.sintomi = list()
             self.statoSintomi = True
 
     def inserisciNome(self, nome):
