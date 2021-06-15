@@ -80,4 +80,7 @@ Dopo aver indicato tutti i sintomi da parte dell'utente, viene effettuata la pre
 
 <img src="documentazioneMedia/9807754B-1DA4-49EA-99E9-0EB425CF4A2C.jpeg" alt="drawing" width="400"/>
 
+## Esempio 3
+
 <img src="documentazioneMedia/B2AF7AFD-D75A-4E13-A834-2CB254EF9159.jpeg" alt="drawing" width="400"/>
+<img src="documentazioneMedia/B2AF7AFD-D75A-4E13-A834-2CB254EF9159part2.jpeg" alt="drawing" width="400"/>
