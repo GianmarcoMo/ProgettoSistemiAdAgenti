@@ -7,6 +7,18 @@ from telegram.ext import CommandHandler, CallbackQueryHandler
 import telegram
 
 
+def conferma():
+    return sintomi.get(test.getStato()[0])
+class Strunz:
+    def __init__(self):
+        self.stati = list()
+    def getStato(self):
+        return self.stati
+    def nuovoStato(self):
+        self.stati = list()
+    
+
+
 class classeSintomo:
     def __init__(self, url, sinonimiInput, nomeIt, descInput, linkWiki):
         self.url = url
@@ -49,13 +61,15 @@ for sintomo in datasint:
     sintomi[sintomo["url"]] = classeSintomo(sintomo["url"], sintomo['senses'], sintomo['name'], sintomo['descriptions'], sintomo.get('link'))
     contatoresintomi += 1;
 f.close()
-
+test = Strunz()
 def buttonCallback(update, context, listaSintomiDefinitiva):
     context.bot.send_message(chat_id=update.effective_chat.id, text='Ho trovato diversi sintomi: ')
     
+    test.nuovoStato()
     keyboard = []
     for sintomo in listaSintomiDefinitiva:
         keyboard.append([InlineKeyboardButton(sintomo.getNome(), callback_data = sintomo.getUrl())])
+        test.getStato().append(sintomo.getUrl())
 
     reply_markup = InlineKeyboardMarkup(keyboard)
     
@@ -64,8 +78,12 @@ def buttonCallback(update, context, listaSintomiDefinitiva):
 def risultatoCallBack(update, context):
     query = update.callback_query
     query.answer()
-    query.edit_message_text(text=f"Digita: *{query.data}* per confermare", parse_mode=telegram.ParseMode.MARKDOWN)
     
+    query.edit_message_text(text=f"Il sintomo che hai scelto indica questo:\n_{sintomi.get(query.data).getDescrizione()[0]}_\n\nper confermare digita *conferma* oppure reinserire il sintomo", parse_mode=telegram.ParseMode.MARKDOWN)
+    for sintomo in test.getStato():
+        if (sintomo!=query.data):
+            test.getStato().remove(sintomo)
+
 
 def riconoscimentoSintomo(inputSintomo,update, context, dispatcher, updater):
     inputSintomo = inputSintomo.lower()
@@ -105,7 +123,10 @@ def riconoscimentoSintomo(inputSintomo,update, context, dispatcher, updater):
             context.bot.send_message(chat_id=update.effective_chat.id, text='/risultato')
             updater.dispatcher.add_handler(CommandHandler('risultato', buttonCallback(update, context, listaSintomiDefinitiva)))
             updater.dispatcher.add_handler(CallbackQueryHandler(risultatoCallBack))
-
+            
+            
+            
+            
             return '0' 
     else:
         if (len(listaSintomiDefinitiva) == 0):
@@ -115,7 +136,7 @@ def riconoscimentoSintomo(inputSintomo,update, context, dispatcher, updater):
     
     #Quando la lista è formata da solo un sintomo
     
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Sintomo acquisito correttamente.\nHai altri sintomi?")
+    
     
     return listaSintomiDefinitiva[0]
     

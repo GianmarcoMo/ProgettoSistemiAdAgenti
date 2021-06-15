@@ -5,9 +5,11 @@ from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 import telegram
 
+
 import logging
 import connDialog as diagFlow
 import riconoscimentoSintomi
+
 
 class Persona:
     def __init__(self):
@@ -57,27 +59,54 @@ def echo(update, context):
     if(utente.getStato()):
         messaggioUtente = update.message.text
         
-        if(messaggioUtente.lower() == 'no'):
-            utente.cambiaStatoSintomi()
-            context.bot.send_message(chat_id=update.effective_chat.id, text="Ora controllo cosa hai...")
-            # predizione malattia
-            risultato = riconoscimentoSintomi.predizioneMalattia(utente.getSintomi())
-            context.bot.send_message(chat_id=update.effective_chat.id, text=f"Secondo i dati che miei fornito potresti avere: *{risultato.getNome()}*", parse_mode=telegram.ParseMode.MARKDOWN)
-            if (risultato.getLinkWiki()!=None):
-                context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getLinkWiki())
+        
+        if("mostra" in messaggioUtente.lower() and "sintomi" in messaggioUtente.lower()):
+            if (len(utente.getSintomi())!=0):
+                mostraChatSintomiAcquisiti(update, context)
             else:
-                 context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getDescrizione()[0])
+                context.bot.send_message(chat_id=update.effective_chat.id, text="Scusami, non ho ancora compreso nessun sintomo")
+
+        
+        
+        elif(messaggioUtente.lower() == 'no' or messaggioUtente.lower() == 'stop' or messaggioUtente.lower()=="non ho altri sintomi"):
+            #se abbiamo acquisito sintomi
+            if (len(utente.getSintomi())!=0):
+                utente.cambiaStatoSintomi()
+                mostraChatSintomiAcquisiti(update, context)
+                context.bot.send_message(chat_id=update.effective_chat.id, text="Ora controllo cosa hai...")
+                # predizione malattia
+                risultato = riconoscimentoSintomi.predizioneMalattia(utente.getSintomi())
+                context.bot.send_message(chat_id=update.effective_chat.id, text=f"Secondo i dati che miei fornito potresti avere: *{risultato.getNome()}*", parse_mode=telegram.ParseMode.MARKDOWN)
+                if (risultato.getLinkWiki()!=None):
+                    context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getLinkWiki())
+                else:
+                     context.bot.send_message(chat_id=update.effective_chat.id, text=risultato.getDescrizione()[0])
+            else:
+                #se abbiamo acquisito sintomi
+                context.bot.send_message(chat_id=update.effective_chat.id, text="Scusami, non ho ancora compreso nessun sintomo, non posso avviare la predizione della malattia. \nQuale sintomo credi di avere?")
+                utente.SetRiconoscimento('0')
 
         else:
-            utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context, dispatcher, updater))
-            if (utente.getRiconoscimento() != '0'):
-                utente.getSintomi().append(utente.getRiconoscimento())
+            if(messaggioUtente.lower() == 'si'):
+                 context.bot.send_message(chat_id=update.effective_chat.id, text="Cos'altro credi di avere?")
+                 utente.SetRiconoscimento('0')
+            elif(messaggioUtente.lower() == 'conferma'):
+                utente.getSintomi().append(riconoscimentoSintomi.conferma())
+                context.bot.send_message(chat_id=update.effective_chat.id, text="Sintomo acquisito correttamente.\nHai altri sintomi?")
                 utente.SetRiconoscimento('0')
+            else:
+                utente.SetRiconoscimento(riconoscimentoSintomi.riconoscimentoSintomo(messaggioUtente,update, context, dispatcher, updater))
+                if (utente.getRiconoscimento() != '0'):
+                    if(utente.getRiconoscimento() in utente.getSintomi()):
+                         context.bot.send_message(chat_id=update.effective_chat.id, text="Sintomo già acquisito in precedenza, inserire un *nuovo sintomo* o digitare *stop*",parse_mode=telegram.ParseMode.MARKDOWN)
+                    else:
+                        utente.getSintomi().append(utente.getRiconoscimento())
+                        context.bot.send_message(chat_id=update.effective_chat.id, text="Sintomo acquisito correttamente.\nHai altri sintomi?")
+                    utente.SetRiconoscimento('0')
             
     else:
         messaggioBot = diagFlow.invioMessaggioAgente(update.message.text) 
-        if(messaggioBot == 'Dimmi che sintomi hai'
-           or messaggioBot == 'Dimmi i tuoi dolori'):
+        if("Mi dispiace" in messaggioBot):
             utente.cambiaStatoSintomi()
         context.bot.send_message(chat_id=update.effective_chat.id, text=messaggioBot)
         
@@ -85,6 +114,10 @@ def gestoreMessaggi():
     echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)
     dispatcher.add_handler(echo_handler)     
 
+def mostraChatSintomiAcquisiti(update, context):
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Per adesso i sintomi che ho inserito sono:")
+    for sintomo in utente.getSintomi():
+         context.bot.send_message(chat_id=update.effective_chat.id, text=f"- {sintomo.getNome()}")
 # -------------------------------------------------------------
 utente = Persona()
 
